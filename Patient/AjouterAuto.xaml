@@ -1,0 +1,131 @@
+﻿<dx:DXWindow x:Class="GestionClinique.Patient.AjouterAuto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+     dx:ThemeManager.ThemeName="Office2010Black"
+                                               xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionClinique.Patient"
+        mc:Ignorable="d"
+        Title="Autosurveillance" Height="550" Width="400" ResizeMode="NoResize" Icon="/Diabetosoft;component/Dent6.ico" WindowStartupLocation="CenterScreen"   BorderThickness="2" WindowStyle="ToolWindow" Padding="0,0,0,0" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"  >
+    
+
+        <Grid x:Name="AutoGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="15*"/>
+
+            </Grid.ColumnDefinitions>
+
+
+
+
+
+            <Label x:Name="c" Content="fiche d'autosurveillance glycémique" BorderThickness="1" FontSize="16" FontFamily="Century Schoolbook"  VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" HorizontalAlignment="Center" FontWeight="Bold" Background="#FFB27300" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="0" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" />
+
+            <TextBlock Text="Type de traitement :" FontWeight="Bold"  FontFamily="Century Schoolbook" Grid.Row="1" FontSize="16" Margin="30,29,0,29" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+            <RadioButton x:Name="radiotYPE1" GroupName="UserCompte" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" Margin="60,0,0,0" FontSize="14" FontFamily="Century Schoolbook" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" >Type 1</RadioButton>
+            <RadioButton x:Name="radiotYPE2" GroupName="UserCompte" IsChecked="True" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Right" FontFamily="Century Schoolbook" FontSize="14" VerticalAlignment="Center" Margin="0,0,30,0" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">Type 2</RadioButton>
+
+
+
+
+
+            <TextBlock Text=" début de la fiche:" FontWeight="Bold"  FontFamily="Century Schoolbook" Grid.Row="2" FontSize="14.667" Margin="30,29,0,28" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+            <DatePicker x:Name="txtDate" VerticalAlignment="Center" SelectedDate="{Binding débutdelafiche, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16" Margin="0,0,20,0" Height="26" BorderBrush="#FFB27300" HorizontalAlignment="Right" Width="150" Grid.ColumnSpan="2" Grid.Row="2" Foreground="#FFB27300" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" />
+
+            <TextBlock Text="semaine par page :" FontWeight="Bold"  FontFamily="Century Schoolbook" Grid.Row="3" FontSize="14.667" Margin="30,25,0,18" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.ColumnSpan="2" Height="22" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+
+
+
+            <ComboBox x:Name="Semaineparpage" SelectedValuePath="Content" SelectedValue="{Binding NbSemaine, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedIndex="0" DockPanel.Dock="Right" MinWidth="10" HorizontalAlignment="Right" VerticalAlignment="Center" FontFamily="Century Schoolbook" FontSize="14" Grid.Row="3" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Margin="0,0,20,0" Width="150" Foreground="#FFB27300" >
+
+                <ComboBoxItem  Content="1" FontSize="14" />
+                <ComboBoxItem  Content="2" FontSize="14"/>
+                <ComboBoxItem Content="4" FontSize="14"/>
+               
+            </ComboBox>
+
+
+            <Border Name="windowBorderPhoto" Margin="30,0,15,0" BorderThickness="5" CornerRadius="20" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="#FFB27300" Grid.RowSpan="2" Grid.Row="4" Grid.ColumnSpan="2">
+                <Image Margin="5,5,5,5" Name="imgPhoto" Stretch="Fill" Grid.Column="1" Grid.RowSpan="3" Source="/Diabetosoft;component/Images/le-diabete.jpg" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            </Border>
+            <Button Name="btnOpenFile" Click="btnOpenFile_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="150" FontFamily="Times New Roman" Grid.Column="2" Grid.Row="5" Margin="0" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Background="#FFB27300" Height="30">télécharger Image
+            </Button>
+
+
+            <Button x:Name="btnCreer" Content="" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Width="40" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" FontFamily="Times New Roman" FontSize="16" Click="btnCreer_Click" Grid.Column="1" Margin="99.5,22,145,23" Height="40" ToolTip="Créer" BorderBrush="{x:Null}" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+                </Button.Background>
+            </Button>
+
+
+
+
+        </Grid>
+</dx:DXWindow>

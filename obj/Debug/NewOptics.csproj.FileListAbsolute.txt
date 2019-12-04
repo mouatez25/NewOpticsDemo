@@ -1,0 +1,1544 @@
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Aceuill.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Authentification.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Chat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\DXWindowMain.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Aceuill.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Authentification.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Chat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\DXWindowMain.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Editeur.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\FeuilleCalcule.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\App.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics_Content.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.cache
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.lref
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.config
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.manifest
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.application
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.pdb
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Aviad.WPF.Controls.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Charts.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.CodeParser.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Data.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Diagram.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Images.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Mvvm.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Office.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Pdf.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.PivotGrid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Printing.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Export.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Sparkline.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Spreadsheet.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.UI.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Charts.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Controls.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Core.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Diagram.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Docking.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Layout.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.LayoutControl.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.NavBar.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PivotGrid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Printing.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PropertyGrid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.ReportDesigner.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Ribbon.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.RichEdit.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Spreadsheet.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpo.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraEditors.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGauges.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPrinting.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.Extensions.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\dragonz.actb.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.Common.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WebForms.DLL
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WinForms.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.Speech.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Input.Toolkit.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Layout.Toolkit.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Interactivity.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\WPFToolkit.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.DataGrid.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.Toolkit.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraBars.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraTreeList.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraRichEdit.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraVerticalGrid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraLayout.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.UI.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Wizard.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Extensions.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPivotGrid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraNavBar.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGrid.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.SqlServer.Types.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraDiagram.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Data.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Diagram.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Mvvm.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Office.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Pdf.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.PivotGrid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Printing.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Sparkline.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Spreadsheet.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.UI.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Charts.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Controls.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Core.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Diagram.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Docking.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Layout.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.LayoutControl.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.NavBar.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PivotGrid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Printing.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PropertyGrid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.ReportDesigner.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Ribbon.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.RichEdit.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Spreadsheet.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpo.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraEditors.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGauges.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPrinting.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.Extensions.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.pdb
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.pdb
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WinForms.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraBars.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraTreeList.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraRichEdit.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraVerticalGrid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraLayout.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.UI.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Wizard.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPivotGrid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraNavBar.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGrid.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraDiagram.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\fr\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\it\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ko\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\pt\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\App.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Editeur.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\FeuilleCalcule.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.g.resources
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.Properties.Resources.resources
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.csproj.GenerateResource.Cache
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.licenses
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\RdlCompile.cache
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\RdlCompile.compiled
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.TrustInfo.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.manifest
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.application
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.exe
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.pdb
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Article\Articles.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Article\Articles.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Entete.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Entete.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Gauges.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Gauges.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Gauges.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Gauges.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Gauges.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Gauges.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\MesAchat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\MesAchat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\Commande.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\Commande.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\Reception.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Commande\Reception.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Themes.LightGray.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Scheduler.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraScheduler.v17.1.Core.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Scheduler.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraScheduler.v17.1.Core.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.Scheduler.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Persistent.Base.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.Scheduler.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Persistent.Base.v17.1.xml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.ExpressApp.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.ExpressApp.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.ExpressApp.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.ExpressApp.v17.1.resources.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\Verre.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\Verre.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\Brushes.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\ExpanderStyles.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\GreyButton.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\PulseButton.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\RoundBorderPanelStyle.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ressources\StoryBoards.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ListeRendezVous.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ListeRendezVous.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\CustomAppointmentForm.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\CustomAppointmentForm.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\AjouterMotif.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPalete.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPalete.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\AjouterMotif.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPaleteStatus.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPaleteStatus.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\InsertStatus.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Appointement\InsertStatus.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Themes.Office2016White.v17.1.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Nut.dll
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\NewOptics.csprojResolveAssemblyReference.cache
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.g.cs
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.baml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.config
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.exe
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.pdb
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.manifest
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\NewOptics.application
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\NewOptics.pdb
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Aviad.WPF.Controls.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Charts.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.CodeParser.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Data.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Diagram.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.Scheduler.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Images.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Mvvm.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Office.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Pdf.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.PivotGrid.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Printing.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Export.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Sparkline.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Spreadsheet.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.UI.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Charts.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Controls.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Core.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DataAccess.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Diagram.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Docking.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Gauges.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Layout.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.LayoutControl.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.NavBar.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PivotGrid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Printing.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PropertyGrid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.ReportDesigner.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Ribbon.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.RichEdit.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Scheduler.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Spreadsheet.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Themes.LightGray.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Themes.Office2016White.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpo.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraEditors.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGauges.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPrinting.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.Extensions.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraScheduler.v17.1.Core.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\dragonz.actb.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.Common.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WebForms.DLL
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Nut.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Input.Toolkit.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Layout.Toolkit.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Interactivity.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\WPFToolkit.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.DataGrid.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.Toolkit.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Persistent.Base.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraBars.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraTreeList.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraRichEdit.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraVerticalGrid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraLayout.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.UI.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Wizard.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Extensions.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPivotGrid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraNavBar.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGrid.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Microsoft.SqlServer.Types.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraDiagram.v17.1.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Data.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Diagram.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.Scheduler.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Mvvm.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Office.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Pdf.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.PivotGrid.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Printing.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.RichEdit.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Sparkline.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Spreadsheet.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Utils.v17.1.UI.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Charts.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Controls.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Core.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Diagram.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Docking.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Gauges.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Grid.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Layout.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.LayoutControl.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.NavBar.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PivotGrid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Printing.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.PropertyGrid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.ReportDesigner.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Ribbon.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.RichEdit.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Scheduler.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpf.Spreadsheet.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Xpo.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraEditors.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGauges.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPrinting.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraReports.v17.1.Extensions.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraScheduler.v17.1.Core.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.pdb
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.pdb
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.ExpressApp.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.Persistent.Base.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraBars.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraTreeList.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraRichEdit.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraVerticalGrid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraLayout.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.DataAccess.v17.1.UI.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraCharts.v17.1.Wizard.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraPivotGrid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraNavBar.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraGrid.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\DevExpress.XtraDiagram.v17.1.xml
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Data.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Data.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Data.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Data.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.ExpressApp.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Utils.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Utils.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Utils.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Utils.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Utils.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Utils.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Utils.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Utils.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Gauges.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Gauges.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Gauges.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Gauges.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Scheduler.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.Xpo.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.Xpo.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraCharts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraCharts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraCharts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraCharts.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraEditors.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraEditors.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraEditors.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraEditors.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraReports.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraReports.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraReports.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraReports.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraScheduler.v17.1.Core.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.ExpressApp.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.ExpressApp.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.ExpressApp.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.ExpressApp.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraBars.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraBars.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraBars.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraBars.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraLayout.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraLayout.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraLayout.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraLayout.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\DevExpress.XtraGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\DevExpress.XtraGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\DevExpress.XtraGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\DevExpress.XtraGrid.v17.1.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\de\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\es\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\fr\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\it\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ja\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ko\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\pt\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\ru\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\bin\NewOptics\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.csprojResolveAssemblyReference.cache
+C:\optic\NewOptics\GestionClinique\obj\Debug\Aceuill.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPalete.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPaleteStatus.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\CustomAppointmentForm.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Article\Articles.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Authentification.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Chat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\DXWindowMain.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Entete.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Aceuill.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\AjouterMotif.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPalete.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ColorPaleteStatus.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\CustomAppointmentForm.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\InsertStatus.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ListeRendezVous.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Article\Articles.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Authentification.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Chat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\Commande.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\Reception.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\DXWindowMain.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Editeur.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\FeuilleCalcule.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Entete.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\MesAchat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\Verre.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\App.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics_Content.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.cache
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.lref
+C:\optic\NewOptics\GestionClinique\obj\Debug\App.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\AjouterMotif.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\InsertStatus.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Appointement\ListeRendezVous.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\Commande.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Commande\Reception.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Editeur.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\FeuilleCalcule.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\Brushes.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\ExpanderStyles.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\GreyButton.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\PulseButton.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\RoundBorderPanelStyle.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\ressources\StoryBoards.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Achat\MesAchat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Stock\Verre.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.baml
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.g.resources
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.Properties.Resources.resources
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.csproj.GenerateResource.Cache
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.licenses
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.TrustInfo.xml
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.manifest
+C:\optic\NewOptics\GestionClinique\obj\Debug\NewOptics.application
+C:\optic\NewOptics\GestionClinique\obj\Debug\RdlCompile.cache
+C:\optic\NewOptics\GestionClinique\obj\Debug\RdlCompile.compiled
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.config
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.exe
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.pdb
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.manifest
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\NewOptics.application
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\NewOptics.pdb
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Aviad.WPF.Controls.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\dragonz.actb.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.Common.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WebForms.DLL
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Nut.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Input.Toolkit.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.Layout.Toolkit.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Interactivity.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\WPFToolkit.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.DataGrid.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Xceed.Wpf.Toolkit.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\AeroWizard.xml
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Madaa.Lib.Win.Services.pdb
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.pdb
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\MahApps.Metro.xml
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\WpfAnimatedGif.xml
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Aceuill.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Article\Articles.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Authentification.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Chat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\DXWindowMain.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Entete.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Aceuill.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\AvoirFournisseur.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ListesAchats.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Article\Articles.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Atelier\ListeLentilleClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Atelier\ListeMonture.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Authentification.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Chat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\Commande.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\Reception.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\DXWindowMain.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\ListeFournisseur.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Entete.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\AchatEtVenteProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\TableauDeBord.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\Verre.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListLentille.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListSupplément.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerre.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\App.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics_Content.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.cache
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics_MarkupCompile.lref
+D:\29112018\NewOptics\GestionClinique\obj\Debug\App.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\Caisse.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\DossierClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ExamenOptométrique.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\FichePatient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionExamenBinoculaire.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFacture.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFactureTunisie.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionFicheAtelier.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionLentilleRecu.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionModeleMonture.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ImpressionMonturePaiement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\LentilleClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ListClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\MontureClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\NewClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\ReportListePatient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\SelectionProduitLentilleCat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\StylusSettings.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ClientA\VersementClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\AjouterCommande.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\Commande.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\ImpressionCommande.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Commande\Reception.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\Comptoir.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\Confirmation.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\DetailVente.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Comptoir\ImpressionTickets.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\CreditClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionEtat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\CreditCreance\ImpressionVersementClient.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Compteurs.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Param\Utilisateurs.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\Brushes.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\ExpanderStyles.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\GreyButton.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\PulseButton.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\RoundBorderPanelStyle.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\ressources\StoryBoards.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Achatsdesproduits.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Etat104.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\Impression104.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionTableauDeBord.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\JournalDesVentes.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\AjouterFactureAchat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\AjouterFournisseur.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterMarque.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterCatalogueVerre.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\AjouterProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAchat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionAlerte.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImageProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionDestockage.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionFactureAchat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionListeAchats.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionListeDesVersements.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Fournisseur\ImpressionListFourn.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ImpressionMesAchats.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionFamille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionMarque.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionNomenclature.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Article\ImpressionStock.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\ImpressionStockalertePerme.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Achat\ListeDesVersements.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\Lentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeMarque.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ListeSupplement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\ModiTarif.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\MonStock.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Statistique\PeremptionAlerte.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionLentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduit.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionProduitLentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\SelectionVerre.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\selectProduitCat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Stock\Verre.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterCat.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\AjouterSupplement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionLentille.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionOneSupplement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionSupp.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ImpressionVerre.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListeCategorieSupplement.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListeSupplementSup.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\ListVerreSup.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Tarif\Propriete.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Vente\ImpressionVente.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\Vente\VenteEntete.baml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.g.resources
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.Properties.Resources.resources
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.csproj.GenerateResource.Cache
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.licenses
+D:\29112018\NewOptics\GestionClinique\obj\Debug\RdlCompile.cache
+D:\29112018\NewOptics\GestionClinique\obj\Debug\RdlCompile.compiled
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.TrustInfo.xml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.exe.manifest
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.application
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.SqlServer.Types.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\de\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\es\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\fr\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\it\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\ja\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\ko\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\pt\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\ru\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WinForms.dll
+D:\29112018\NewOptics\GestionClinique\bin\NewOptics\Microsoft.ReportViewer.WinForms.xml
+D:\29112018\NewOptics\GestionClinique\obj\Debug\NewOptics.csprojResolveAssemblyReference.cache

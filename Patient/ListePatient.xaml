@@ -1,0 +1,540 @@
+﻿<UserControl xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" 
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                                    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+
+          xmlns:dxwuin="http://schemas.devexpress.com/winfx/2008/xaml/windowsui/navigation"
+             xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GestionClinique.Patient"
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" x:Class="GestionClinique.Patient.ListePatient"
+      mc:Ignorable="d" 
+     
+      >
+
+    <Grid Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="80px" />
+
+            <RowDefinition  />
+            <RowDefinition Height="2*"  />
+        </Grid.RowDefinitions>
+
+        <dxwui:PageAdornerControl Header="liste Des Patients" Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" >
+            <dxwui:PageAdornerControl.HeaderTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <ContentPresenter Content="{Binding}"/>
+
+                    </Grid>
+                </DataTemplate>
+            </dxwui:PageAdornerControl.HeaderTemplate>
+        </dxwui:PageAdornerControl>
+        <DockPanel Margin="350,0,0,0" ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Disabled" Grid.RowSpan="1" Background="DimGray" HorizontalAlignment="Center">
+            <Button x:Name="btnNew" FontFamily="Segoe UI, Lucida Sans Unicode, Verdana" Click="btnNew_Click" Content="" FontSize="10" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" ToolTip="Nouveau" MinWidth="56" MinHeight="40" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/Administrateur/Images/1456624077_add_user.ico"/>
+                </Button.Background>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Custom:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+            <Button x:Name="btnSupp" FontFamily="Segoe UI" Margin="20,0,0,0" Click="btnSupp_Click" Content="" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" ToolTip="Supprimer" MinWidth="56" MinHeight="40" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/Administrateur/Images/1456624817_delete.ico"/>
+                </Button.Background>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Custom:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+            <Button x:Name="btnEdit" Click="btnEdit_Click" Margin="20,0,0,0" Content="" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" ToolTip="Modifier" MinWidth="56" MinHeight="40" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/Administrateur/Images/1456624391_edit_user.ico"/>
+                </Button.Background>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Custom:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+            <Button x:Name="btnImprimer" Margin="20,0,0,0" Content="" HorizontalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Click="btnImprimer_Click" ToolTip="Imprimer" MinWidth="56" MinHeight="40" VerticalAlignment="Center">
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/Administrateur/Images/1456624510_printer.ico"/>
+                </Button.Background>
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Custom:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+            <Button x:Name="btnDossier" Margin="20,0,0,0" Content="" HorizontalAlignment="Left" Foreground="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" Click="btnDossier_Click" ToolTip="Dossier" Width="56" Height="40" MinWidth="56" MinHeight="40" VerticalAlignment="Center" >
+                <Button.Background>
+                    <ImageBrush ImageSource="/Diabetosoft;component/FileDattente/Images/renommer-un-fichier.png"/>
+                </Button.Background>
+                <Button.BorderBrush>
+                    <ImageBrush/>
+                </Button.BorderBrush>
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Custom:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+                                <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+
+            </Button>
+            <TextBlock x:Name="label" Text="Trouver :" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="20,0,0,0" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+            <TextBox x:Name="txtRecherche" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Width="150" TextChanged="txtRecherche_TextChanged" Foreground="#FFB27300" />
+            <TextBlock x:Name="labeld" Text="Réf :" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="20,0,0,0" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+            <TextBox x:Name="txtRef" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Width="100" TextChanged="txtRef_TextChanged" Foreground="#FFB27300"   />
+            <TextBlock x:Name="labdeld" Text="N° Dossier :" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="20,0,0,0" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+            <TextBox x:Name="txtDossier" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Width="100" TextChanged="txtDossier_TextChanged" Foreground="#FFB27300"   />
+
+            <TextBlock x:Name="label1" Text="Medecin Traitant :" HorizontalAlignment="Left" VerticalAlignment="Center" FontWeight="Bold" FontSize="16" Margin="20,0,0,0" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+            <TextBox x:Name="txtRechercheMedecin" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="15,0,0,0" Width="150" TextChanged="txtRechercheMedecin_TextChanged" Foreground="#FFB27300" />
+
+        </DockPanel>
+        <DataGrid x:Name="PatientDataGrid" MouseDoubleClick="ClientsDataGrid_MouseDoubleClick" Grid.Row="1" AutoGenerateColumns="False" ItemsSource="{Binding}" Margin="0" IsReadOnly="True" IsTextSearchCaseSensitive="True" Grid.ColumnSpan="2" Grid.RowSpan="2" FontFamily="Tahoma" GridLinesVisibility="None"  BorderBrush="{x:Null}" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" SelectionMode="Single" RowBackground="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" AlternatingRowBackground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Normal"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="MinWidth" Value="0"/>
+                    <Setter Property="MinHeight" Value="25"/>
+                    <Setter Property="Foreground" Value="{DynamicResource BlackBrush}"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="10,4,4,7"/>
+                    <Setter Property="Margin" Value="0"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,3"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource GrayBrush5}"/>
+                    <Setter Property="Background" Value="{DynamicResource GrayBrush8}"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Border x:Name="BackgroundBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.ColumnSpan="2"/>
+                                    <Custom:ContentControlEx x:Name="HeaderContent" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    <Path x:Name="SortArrow" Grid.Column="1" Fill="{DynamicResource GrayBrush2}" Height="10" Margin="0,0,8,2" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Visibility="Collapsed" VerticalAlignment="Center" Width="8"/>
+                                    <Thumb x:Name="PART_LeftHeaderGripper" Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                    <Thumb x:Name="PART_RightHeaderGripper" Grid.Column="1" HorizontalAlignment="Right" HorizontalContentAlignment="Right">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="SortDirection" Value="{x:Null}">
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource WhiteBrush}"/>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="IsMouseOver" Value="True"/>
+                                            <Condition Property="SortDirection" Value="{x:Null}"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource GrayBrush8}"/>
+                                    </MultiTrigger>
+                                    <Trigger Property="SortDirection" Value="Ascending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M34,57L42,57 42,32.25 52,42.25 52,31.75 38,17.75 24,31.75 24,42.25 34,32.25 34,57z"/>
+                                    </Trigger>
+                                    <Trigger Property="SortDirection" Value="Descending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M42,19.0002L34,19.0002 34,43.7502 24,33.7502 24,44.2502 38,58.2502 52,44.2502 52,33.7502 42,43.7502 42,19.0002z"/>
+                                        <Setter Property="Margin" TargetName="SortArrow" Value="0,0,8,0"/>
+                                    </Trigger>
+                                    <Trigger Property="DisplayIndex" Value="0">
+                                        <Setter Property="Visibility" TargetName="PART_LeftHeaderGripper" Value="Collapsed"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.CellStyle>
+                <Style TargetType="DataGridCell">
+                    <Style.Triggers>
+                        <Trigger Property="IsSelected" Value="True">
+                            <Setter   Property="BorderThickness" Value="0,3,0,3"/>
+
+                            <Setter Property="BorderBrush" Value="#CC119EDA"></Setter>
+                            <Setter Property="FontWeight" Value="Bold"></Setter>
+                            <Setter Property="FontSize" Value="20"></Setter>
+                            <Setter Property="Background" Value="#CC119EDA" />
+                            <Setter Property="Foreground" Value="White"></Setter>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.CellStyle>
+
+
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="CodeSys"
+					Binding="{Binding Id}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Réf"
+					Binding="{Binding Ref}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Dossier"
+					Binding="{Binding Dossier}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="Nom"
+					Binding="{Binding Nom}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Prénom"
+					Binding="{Binding Prénom}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Adresse"
+					Binding="{Binding Adresse}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Sexe"
+					Binding="{Binding Sexe}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Téléphone"
+					Binding="{Binding Téléphone}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Mobile"
+					Binding="{Binding Mobile}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="EtatCiv"
+					Binding="{Binding EtatCiv}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="DateDeNaissance"
+					Binding="{Binding DateDeNaissance, StringFormat=\{0:dd/MM/yyyy\}}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="NuméroSS"
+					Binding="{Binding NuméroSS}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Assurance"
+					Binding="{Binding Assurance}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+                <DataGridTextColumn Header="Fonction"
+					Binding="{Binding Fonction}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="Remarques"
+					Binding="{Binding Remarques}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="Email"
+					Binding="{Binding Email}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="SuiviParNom"
+					Binding="{Binding SuiviParNom}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="SuiviParPrénom"
+					Binding="{Binding SuiviParPrénom}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="CheminPhoto"
+					Binding="{Binding CheminPhoto}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+
+                <DataGridTextColumn Header="SuiviParCode"
+					Binding="{Binding SuiviParCode}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="True" MinWidth="50" FontSize="12" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+
+
+
+
+
+
+
+
+
+    </Grid>
+</UserControl>

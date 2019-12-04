@@ -1,0 +1,20 @@
+﻿<dx:DXWindow x:Class="GestionClinique.Patient.ImpressionAutreBilan"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+                   dx:ThemeManager.ThemeName="Office2010Black"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionClinique.Patient"
+                                         xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+
+        mc:Ignorable="d"
+        Title="ImpressionAutreBilan" Height="600" Width="600" ResizeMode="CanResize"  Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" ShowIcon="True" ShowTitle="True"  WindowStyle="ThreeDBorderWindow"  Icon="/Diabetosoft;component/Dent6.ico" WindowStartupLocation="CenterScreen"  BorderThickness="0"  BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" ShowInTaskbar="True"  >
+    <Grid Margin="10">
+        <WindowsFormsHost Margin="10">
+
+            <rv:ReportViewer x:Name="reportViewer1" />
+        </WindowsFormsHost>
+    </Grid>
+</dx:DXWindow>

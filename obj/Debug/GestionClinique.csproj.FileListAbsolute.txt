@@ -1,0 +1,2115 @@
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\GestionClinique.exe.config
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\MainWindow.g.cs
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\App.g.cs
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\GestionClinique.exe
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\GestionClinique.pdb
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\MahApps.Metro.dll
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\System.Windows.Interactivity.dll
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\MahApps.Metro.pdb
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\MahApps.Metro.xml
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\App.baml
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\MainWindow.baml
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.g.resources
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.exe
+c:\users\mo3tez\documents\visual studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.pdb
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Authentification.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\Home.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Authentification.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\Home.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\MainRendezVous.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RendezVous\MainRendezVous.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\Home.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+c:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\WPFToolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RdlCompile.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\RdlCompile.compiled
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\Chat.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\Chat.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\GestionClinique\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\GestionClinique.exe.config
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.exe
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\Chat.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Authentification.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\MainWindow.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\Home.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\MainRendezVous.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\App.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\GestionClinique.exe
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\GestionClinique.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\MahApps.Metro.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\WPFToolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\MahApps.Metro.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\MahApps.Metro.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\App.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\Chat.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\Home.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\Authentification.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\MainWindow.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\Home.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\MainRendezVous.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.g.resources
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RdlCompile.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\RdlCompile.compiled
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\GestionClinique.exe.manifest
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\bin\Debug\GestionClinique.application
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.TrustInfo.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.exe.manifest
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\07032016\GestionClinique\obj\Debug\GestionClinique.application
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\GestionClinique.exe.config
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.exe
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\GestionClinique.exe.manifest
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\GestionClinique.application
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\GestionClinique.exe
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\GestionClinique.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\MahApps.Metro.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\WPFToolkit.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\MahApps.Metro.pdb
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\MahApps.Metro.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\Chat.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Authentification.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\MainWindow.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\App.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\App.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\Chat.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\Home.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Authentification.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\MainWindow.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.g.resources
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\RdlCompile.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\RdlCompile.compiled
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.TrustInfo.xml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.exe.manifest
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.application
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Home.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Home.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Chat.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Chat.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.baml
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.g.cs
+C:\Users\Mo3tez\Documents\Visual Studio 2015\Projects\26032016\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\MahApps.Metro.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\System.Windows.Interactivity.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\WPFToolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\MahApps.Metro.pdb
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\MahApps.Metro.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Chat.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Home.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\MainWindow.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\App.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\App.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\Home.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Chat.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Home.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\MainWindow.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RdlCompile.cache
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RdlCompile.compiled
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\AutoComplete.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\Styles\AutoComplete.Styles.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\Styles\ComboBox.Styles.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\AutoComplete.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\NewPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\NewPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ListePatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ListePatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ReportPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ReportPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\FichePatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ReportListePatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\FichePatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ReportListePatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\DossierPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\DossierPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\HistoriqueConstante.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\HistoriqueConstante.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\Entête.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\Entête.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneCas.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneCas.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl.resources
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.Patient.WindowLevelGraphControl.resources
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\Dicom.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\Dicom.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.DataGrid.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Xceed.Wpf.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\SalleDattente.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\SalleDattente.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\Arrivée.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\Arrivée.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ColorPalete.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ColorPalete.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ParamétreColor.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ParamétreColor.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ListePatientHome.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ListePatientHome.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\Caisse.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterFournisseur.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeFournisseur.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterFournisseur.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeFournisseur.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionListFourn.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionListFourn.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\MesAchat.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\MesAchat.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\MonStock.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDesVersements.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RichTextEditorSample.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RichTextEditorSample.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionStock.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionStock.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Microsoft.Speech.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl1.resources
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\Aliment.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\FamilleAliment.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\InsertAliments.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\Aliment.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\FamilleAliment.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\InsertAliments.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\CalculeCalorique.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\CalculeCalorique.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDesDci.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDesDci.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterDci.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterDci.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\VersementPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\VersementPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\Aviad.WPF.Controls.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\AeroWizard.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\dragonz.actb.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\AeroWizard.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeActe.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeActe.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterActe.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterActe.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionDevisdentaire.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionDevisdentaire.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\InsertFamille.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\InsertFamille.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterLaboratoire.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterTypeDeProthèse.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeLaboratoire.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDeProthèse.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterLaboratoire.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterTypeDeProthèse.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeLaboratoire.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDeProthèse.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterSousCatégorieProthèse.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeSousCatégorie.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\AjouterSousCatégorieProthèse.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeSousCatégorie.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDesCommandes.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDesCommandes.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\CommandeProthèse.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\CommandeProthèse.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ImpressionCommande.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ImpressionCommande.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ImpressionDetailProthése.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ImpressionDetailProthése.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\GestionClinique.exe.config
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\GestionClinique.exe.manifest
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\GestionClinique.application
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\GestionClinique.exe
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Debug\GestionClinique.pdb
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique_Content.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.g.resources
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.TrustInfo.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.exe.manifest
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.application
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.exe
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.pdb
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.baml
+E:\code\GestionClinique\bin\Debug\GestionClinique.exe.config
+E:\code\GestionClinique\obj\Debug\GestionClinique.exe
+E:\code\GestionClinique\obj\Debug\GestionClinique.pdb
+E:\code\GestionClinique\bin\Debug\GestionClinique.exe.manifest
+E:\code\GestionClinique\bin\Debug\GestionClinique.application
+E:\code\GestionClinique\bin\Debug\GestionClinique.exe
+E:\code\GestionClinique\bin\Debug\GestionClinique.pdb
+E:\code\GestionClinique\bin\Debug\AeroWizard.dll
+E:\code\GestionClinique\bin\Debug\Aviad.WPF.Controls.dll
+E:\code\GestionClinique\bin\Debug\dragonz.actb.dll
+E:\code\GestionClinique\bin\Debug\MahApps.Metro.dll
+E:\code\GestionClinique\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\code\GestionClinique\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+E:\code\GestionClinique\bin\Debug\Microsoft.ReportViewer.WebForms.DLL
+E:\code\GestionClinique\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.dll
+E:\code\GestionClinique\bin\Debug\System.Windows.Controls.Input.Toolkit.dll
+E:\code\GestionClinique\bin\Debug\System.Windows.Controls.Layout.Toolkit.dll
+E:\code\GestionClinique\bin\Debug\System.Windows.Interactivity.dll
+E:\code\GestionClinique\bin\Debug\WPFToolkit.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.DataGrid.dll
+E:\code\GestionClinique\bin\Debug\Xceed.Wpf.Toolkit.dll
+E:\code\GestionClinique\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\code\GestionClinique\bin\Debug\AeroWizard.xml
+E:\code\GestionClinique\bin\Debug\MahApps.Metro.pdb
+E:\code\GestionClinique\bin\Debug\MahApps.Metro.xml
+E:\code\GestionClinique\bin\Debug\System.Windows.Controls.DataVisualization.Toolkit.xml
+E:\code\GestionClinique\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\code\GestionClinique\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+E:\code\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+E:\code\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\AutoComplete.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\Styles\AutoComplete.Styles.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\Styles\ComboBox.Styles.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterActe.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\Chat.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ColorPalete.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\Entête.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeActe.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+E:\code\GestionClinique\obj\Debug\Administrateur\ParamétreColor.g.cs
+E:\code\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+E:\code\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+E:\code\GestionClinique\obj\Debug\Caisse\ImpressionCaisse.g.cs
+E:\code\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+E:\code\GestionClinique\obj\Debug\Chat.g.cs
+E:\code\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+E:\code\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+E:\code\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.g.cs
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.g.cs
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.g.cs
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.g.cs
+E:\code\GestionClinique\obj\Debug\FileDattente\Arrivée.g.cs
+E:\code\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.g.cs
+E:\code\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.g.cs
+E:\code\GestionClinique\obj\Debug\FileDattente\SalleDattente.g.cs
+E:\code\GestionClinique\obj\Debug\Home.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterLaboratoire.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterSousCatégorieProthèse.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterTypeDeProthèse.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\CommandeProthèse.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ImpressionCommande.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ImpressionDetailProthése.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeDeProthèse.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeDesCommandes.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeLaboratoire.g.cs
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeSousCatégorie.g.cs
+E:\code\GestionClinique\obj\Debug\ListePatientHome.g.cs
+E:\code\GestionClinique\obj\Debug\MainWindow.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\Aliment.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\CalculeCalorique.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\Dicom.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\DossierPatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\FamilleAliment.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\FichePatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\HistoriqueConstante.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionDevisdentaire.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneCas.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\InsertAliments.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\InsertFamille.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ListePatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\NewPatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ReportListePatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\ReportPatient.g.cs
+E:\code\GestionClinique\obj\Debug\Patient\VersementPatient.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\AutoComplete.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.g.cs
+E:\code\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+E:\code\GestionClinique\obj\Debug\RichTextEditorSample.g.cs
+E:\code\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\AjouterDci.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\AjouterFournisseur.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionListFourn.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionStock.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ListeDesDci.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ListeDesVersements.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\ListeFournisseur.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\MesAchat.g.cs
+E:\code\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+E:\code\GestionClinique\obj\Debug\App.g.cs
+E:\code\GestionClinique\obj\Debug\GestionClinique_Content.g.cs
+E:\code\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\code\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+E:\code\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+E:\code\GestionClinique\obj\Debug\App.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterActe.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\Chat.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ColorPalete.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\Entête.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\Home.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeActe.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+E:\code\GestionClinique\obj\Debug\Administrateur\ParamétreColor.baml
+E:\code\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+E:\code\GestionClinique\obj\Debug\Caisse\Caisse.baml
+E:\code\GestionClinique\obj\Debug\Caisse\ImpressionCaisse.baml
+E:\code\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+E:\code\GestionClinique\obj\Debug\Chat.baml
+E:\code\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+E:\code\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.baml
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.baml
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.baml
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.baml
+E:\code\GestionClinique\obj\Debug\FileDattente\Arrivée.baml
+E:\code\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.baml
+E:\code\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.baml
+E:\code\GestionClinique\obj\Debug\FileDattente\SalleDattente.baml
+E:\code\GestionClinique\obj\Debug\Home.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterLaboratoire.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterSousCatégorieProthèse.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\AjouterTypeDeProthèse.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\CommandeProthèse.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ImpressionCommande.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ImpressionDetailProthése.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeDeProthèse.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeDesCommandes.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeLaboratoire.baml
+E:\code\GestionClinique\obj\Debug\Laboratoire\ListeSousCatégorie.baml
+E:\code\GestionClinique\obj\Debug\ListePatientHome.baml
+E:\code\GestionClinique\obj\Debug\MainWindow.baml
+E:\code\GestionClinique\obj\Debug\Patient\Aliment.baml
+E:\code\GestionClinique\obj\Debug\Patient\CalculeCalorique.baml
+E:\code\GestionClinique\obj\Debug\Patient\Dicom.baml
+E:\code\GestionClinique\obj\Debug\Patient\DossierPatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\FamilleAliment.baml
+E:\code\GestionClinique\obj\Debug\Patient\FichePatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\HistoriqueConstante.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionDevisdentaire.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneCas.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.baml
+E:\code\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.baml
+E:\code\GestionClinique\obj\Debug\Patient\InsertAliments.baml
+E:\code\GestionClinique\obj\Debug\Patient\InsertFamille.baml
+E:\code\GestionClinique\obj\Debug\Patient\ListePatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\NewPatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\ReportListePatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\ReportPatient.baml
+E:\code\GestionClinique\obj\Debug\Patient\VersementPatient.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.baml
+E:\code\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+E:\code\GestionClinique\obj\Debug\RichTextEditorSample.baml
+E:\code\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+E:\code\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+E:\code\GestionClinique\obj\Debug\Stock\AjouterDci.baml
+E:\code\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.baml
+E:\code\GestionClinique\obj\Debug\Stock\AjouterFournisseur.baml
+E:\code\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionListFourn.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+E:\code\GestionClinique\obj\Debug\Stock\ImpressionStock.baml
+E:\code\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.baml
+E:\code\GestionClinique\obj\Debug\Stock\ListeDesDci.baml
+E:\code\GestionClinique\obj\Debug\Stock\ListeDesVersements.baml
+E:\code\GestionClinique\obj\Debug\Stock\ListeFournisseur.baml
+E:\code\GestionClinique\obj\Debug\Stock\MesAchat.baml
+E:\code\GestionClinique\obj\Debug\Stock\MonStock.baml
+E:\code\GestionClinique\obj\Debug\GestionClinique.g.resources
+E:\code\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl1.resources
+E:\code\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl.resources
+E:\code\GestionClinique\obj\Debug\GestionClinique.Patient.WindowLevelGraphControl.resources
+E:\code\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+E:\code\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+E:\code\GestionClinique\obj\Debug\RdlCompile.cache
+E:\code\GestionClinique\obj\Debug\RdlCompile.compiled
+E:\code\GestionClinique\obj\Debug\GestionClinique.TrustInfo.xml
+E:\code\GestionClinique\obj\Debug\GestionClinique.exe.manifest
+E:\code\GestionClinique\obj\Debug\GestionClinique.application
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.g.cs
+E:\code\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDesVersementLabo.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Laboratoire\ListeDesVersementLabo.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterEtatDent.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListEtatActuel.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\AjouterEtatDent.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Administrateur\ListEtatActuel.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\GestionClinique.exe.config
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\GestionClinique.exe.manifest
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\GestionClinique.application
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\GestionClinique.exe
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\GestionClinique.pdb
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\AeroWizard.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Aviad.WPF.Controls.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\dragonz.actb.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\MahApps.Metro.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.ReportViewer.Common.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WebForms.DLL
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WinForms.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.Speech.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\System.Windows.Controls.Input.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\System.Windows.Controls.Layout.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\System.Windows.Interactivity.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\WPFToolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.DataGrid.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Xceed.Wpf.Toolkit.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\AeroWizard.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\MahApps.Metro.pdb
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\MahApps.Metro.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WinForms.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\bin\Denta6\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionAchat.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionAchat.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionDestockage.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Stock\ImpressionDestockage.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.baml
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.g.cs
+D:\wpf\sauv\avant optics\26032016\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\AeroWizard.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Aviad.WPF.Controls.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\dragonz.actb.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\MahApps.Metro.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.ReportViewer.Common.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WebForms.DLL
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WinForms.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.Speech.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\System.Windows.Controls.Input.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\System.Windows.Controls.Layout.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\System.Windows.Interactivity.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\WPFToolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.DataGrid.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Xceed.Wpf.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\AeroWizard.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\MahApps.Metro.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\MahApps.Metro.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WinForms.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\AutoComplete.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\Styles\AutoComplete.Styles.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\Styles\ComboBox.Styles.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterActe.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ColorPalete.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\Entête.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeActe.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ParamétreColor.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Chat.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\Arrivée.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\SalleDattente.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Home.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ListePatientHome.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\Aliment.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\CalculeCalorique.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\Dicom.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\DossierPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\FamilleAliment.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\FichePatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\HistoriqueConstante.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneCas.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\InsertAliments.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\InsertFamille.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ListePatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\NewPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ReportListePatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ReportPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\VersementPatient.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\AutoComplete.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RichTextEditorSample.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterDci.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFournisseur.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAchat.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionDestockage.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListFourn.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionStock.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDesDci.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDesVersements.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeFournisseur.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\MesAchat.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\App.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\App.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterActe.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ColorPalete.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\Entête.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\Home.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeActe.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\ParamétreColor.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\Caisse.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Chat.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\Arrivée.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FileDattente\SalleDattente.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Home.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\ListePatientHome.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\Aliment.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\CalculeCalorique.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\Dicom.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\DossierPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\FamilleAliment.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\FichePatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\HistoriqueConstante.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneCas.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\InsertAliments.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\InsertFamille.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ListePatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\NewPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ReportListePatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ReportPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\VersementPatient.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RichTextEditorSample.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterDci.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFournisseur.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAchat.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionDestockage.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListFourn.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionStock.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDesDci.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeDesVersements.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeFournisseur.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\MesAchat.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\MonStock.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl1.resources
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl.resources
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.Patient.WindowLevelGraphControl.resources
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RdlCompile.cache
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\RdlCompile.compiled
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Microsoft.SqlServer.Types.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\fr\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\it\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ko\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\pt\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\AjouterAuto.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\AjouterAuto.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionAuto.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionAuto.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Authentification.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DXWindowMain.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Authentification.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DXWindowMain.g.cs
+C:\pt\GestionClinique\bin\Denta6\GestionClinique.exe.config
+C:\pt\GestionClinique\obj\Debug\GestionClinique.exe
+C:\pt\GestionClinique\obj\Debug\GestionClinique.pdb
+C:\pt\GestionClinique\obj\Debug\GestionClinique.csprojResolveAssemblyReference.cache
+C:\pt\GestionClinique\obj\Debug\Authentification.baml
+C:\pt\GestionClinique\obj\Debug\Chat.baml
+C:\pt\GestionClinique\obj\Debug\ColorPicker\ColorPicker.baml
+C:\pt\GestionClinique\obj\Debug\DXWindowMain.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\AutoComplete.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\Styles\AutoComplete.Styles.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\Styles\ComboBox.Styles.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterActe.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterSession.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ColorPalete.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\Entête.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\Home.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionSession.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeActe.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeMedecin.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeSession.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.g.cs
+C:\pt\GestionClinique\obj\Debug\Administrateur\ParamétreColor.g.cs
+C:\pt\GestionClinique\obj\Debug\Authentification.g.cs
+C:\pt\GestionClinique\obj\Debug\Caisse\AjouterTransaction.g.cs
+C:\pt\GestionClinique\obj\Debug\Caisse\Caisse.g.cs
+C:\pt\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.g.cs
+C:\pt\GestionClinique\obj\Debug\Caisse\ImpressionRecu.g.cs
+C:\pt\GestionClinique\obj\Debug\Chat.g.cs
+C:\pt\GestionClinique\obj\Debug\ColorPicker\ColorDialog.g.cs
+C:\pt\GestionClinique\obj\Debug\ColorPicker\ColorPicker.g.cs
+C:\pt\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.g.cs
+C:\pt\GestionClinique\obj\Debug\DXWindowMain.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.g.cs
+C:\pt\GestionClinique\obj\Debug\FileDattente\Arrivée.g.cs
+C:\pt\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.g.cs
+C:\pt\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.g.cs
+C:\pt\GestionClinique\obj\Debug\FileDattente\SalleDattente.g.cs
+C:\pt\GestionClinique\obj\Debug\Home.g.cs
+C:\pt\GestionClinique\obj\Debug\ListePatientHome.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\AjouterAuto.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\Aliment.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\CalculeCalorique.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\Dicom.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\DossierPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\FamilleAliment.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\FichePatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\HistoriqueConstante.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionAuto.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneCas.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\InsertAliments.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\InsertFamille.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ListePatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\NewPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ReportListePatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\ReportPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\Patient\VersementPatient.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\AutoComplete.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.g.cs
+C:\pt\GestionClinique\obj\Debug\RendezVous\RendezVous.g.cs
+C:\pt\GestionClinique\obj\Debug\RichTextEditorSample.g.cs
+C:\pt\GestionClinique\obj\Debug\RTFEditor\RTFBox.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterAms.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterDci.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterFournisseur.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionAchat.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionAMS.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionDestockage.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionListFourn.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionProduit.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionStock.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDesDci.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDesVersements.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\ListeFournisseur.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\MesAchat.g.cs
+C:\pt\GestionClinique\obj\Debug\Stock\MonStock.g.cs
+C:\pt\GestionClinique\obj\Debug\App.g.cs
+C:\pt\GestionClinique\obj\Debug\GestionClinique_Content.g.cs
+C:\pt\GestionClinique\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\pt\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.cache
+C:\pt\GestionClinique\obj\Debug\GestionClinique_MarkupCompile.lref
+C:\pt\GestionClinique\obj\Debug\Editeur.g.cs
+C:\pt\GestionClinique\obj\Debug\FeuilleCalcule.g.cs
+C:\pt\GestionClinique\obj\Debug\Aceuill.g.cs
+C:\pt\GestionClinique\bin\Denta6\GestionClinique.exe.manifest
+C:\pt\GestionClinique\bin\Denta6\GestionClinique.application
+C:\pt\GestionClinique\bin\Denta6\GestionClinique.exe
+C:\pt\GestionClinique\bin\Denta6\GestionClinique.pdb
+C:\pt\GestionClinique\bin\Denta6\AeroWizard.dll
+C:\pt\GestionClinique\bin\Denta6\Aviad.WPF.Controls.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Charts.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Data.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Mvvm.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Office.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Pdf.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Printing.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.RichEdit.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Spreadsheet.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Charts.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Controls.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Core.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Docking.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Layout.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.LayoutControl.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.NavBar.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Printing.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Ribbon.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.RichEdit.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Spreadsheet.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\dragonz.actb.dll
+C:\pt\GestionClinique\bin\Denta6\MahApps.Metro.dll
+C:\pt\GestionClinique\bin\Denta6\Microsoft.ReportViewer.Common.dll
+C:\pt\GestionClinique\bin\Denta6\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\pt\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WebForms.DLL
+C:\pt\GestionClinique\bin\Denta6\Microsoft.ReportViewer.WinForms.dll
+C:\pt\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.dll
+C:\pt\GestionClinique\bin\Denta6\System.Windows.Controls.Input.Toolkit.dll
+C:\pt\GestionClinique\bin\Denta6\System.Windows.Controls.Layout.Toolkit.dll
+C:\pt\GestionClinique\bin\Denta6\System.Windows.Interactivity.dll
+C:\pt\GestionClinique\bin\Denta6\WPFToolkit.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.DataGrid.dll
+C:\pt\GestionClinique\bin\Denta6\Xceed.Wpf.Toolkit.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.DataAccess.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.CodeParser.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.Core.dll
+C:\pt\GestionClinique\bin\Denta6\Microsoft.SqlServer.Types.dll
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpo.v17.1.dll
+C:\pt\GestionClinique\bin\Denta6\AeroWizard.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Data.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Mvvm.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Office.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Pdf.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Printing.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.RichEdit.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Spreadsheet.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Charts.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Controls.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Core.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Docking.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Layout.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.LayoutControl.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.NavBar.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Printing.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Ribbon.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.RichEdit.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Spreadsheet.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\MahApps.Metro.pdb
+C:\pt\GestionClinique\bin\Denta6\MahApps.Metro.xml
+C:\pt\GestionClinique\bin\Denta6\System.Windows.Controls.DataVisualization.Toolkit.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.DataAccess.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.Core.xml
+C:\pt\GestionClinique\bin\Denta6\DevExpress.Xpo.v17.1.xml
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Data.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Data.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Data.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Data.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Office.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Office.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Office.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Office.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Printing.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Printing.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Printing.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Printing.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Controls.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.NavBar.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.DataAccess.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.DataAccess.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.DataAccess.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.DataAccess.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\fr\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\it\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ko\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\pt\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\pt\GestionClinique\bin\Denta6\de\DevExpress.Xpo.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\es\DevExpress.Xpo.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ja\DevExpress.Xpo.v17.1.resources.dll
+C:\pt\GestionClinique\bin\Denta6\ru\DevExpress.Xpo.v17.1.resources.dll
+C:\pt\GestionClinique\obj\Debug\App.baml
+C:\pt\GestionClinique\obj\Debug\Aceuill.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterActe.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterCatalogue.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMedecin.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMotifDepense.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterMotifVisite.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterSession.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterSpécialité.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\AjouterTypeCas.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ColorPalete.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\Entête.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\Home.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionListeTypeCas.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionMotif.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionMotifDepense.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionOneMedecin.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionOneSession.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionSession.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpressionSpécialité.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ImpresssionMedecin.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeActe.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeDesCatalogue.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeMedecin.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeMotifVisite.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeSession.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeSpécialitéMedecin.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListeTypeCas.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ListMotifDepense.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\MainAdministrateur.baml
+C:\pt\GestionClinique\obj\Debug\Administrateur\ParamétreColor.baml
+C:\pt\GestionClinique\obj\Debug\Caisse\AjouterTransaction.baml
+C:\pt\GestionClinique\obj\Debug\Caisse\Caisse.baml
+C:\pt\GestionClinique\obj\Debug\Caisse\ImpressionMouvement.baml
+C:\pt\GestionClinique\obj\Debug\Caisse\ImpressionRecu.baml
+C:\pt\GestionClinique\obj\Debug\ColorPicker\ColorDialog.baml
+C:\pt\GestionClinique\obj\Debug\DocumentImportant\LivreViewer.baml
+C:\pt\GestionClinique\obj\Debug\Editeur.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\CasAtraiterPatient.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\CertificatRapport.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionGlobal.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionTableauDeBord.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ImpressionVisite.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\ReglementPatient.baml
+C:\pt\GestionClinique\obj\Debug\EtatEtRapport\TableauDeBord.baml
+C:\pt\GestionClinique\obj\Debug\FeuilleCalcule.baml
+C:\pt\GestionClinique\obj\Debug\FileDattente\Arrivée.baml
+C:\pt\GestionClinique\obj\Debug\FileDattente\EcranFilleAttente.baml
+C:\pt\GestionClinique\obj\Debug\FileDattente\ImpressionSalleAttente.baml
+C:\pt\GestionClinique\obj\Debug\FileDattente\SalleDattente.baml
+C:\pt\GestionClinique\obj\Debug\Home.baml
+C:\pt\GestionClinique\obj\Debug\ListePatientHome.baml
+C:\pt\GestionClinique\obj\Debug\Patient\AjouterAuto.baml
+C:\pt\GestionClinique\obj\Debug\Patient\Aliment.baml
+C:\pt\GestionClinique\obj\Debug\Patient\CalculeCalorique.baml
+C:\pt\GestionClinique\obj\Debug\Patient\Dicom.baml
+C:\pt\GestionClinique\obj\Debug\Patient\DossierPatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\FamilleAliment.baml
+C:\pt\GestionClinique\obj\Debug\Patient\FichePatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\HistoriqueConstante.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionAuto.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionBesoinCalorique.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionCasTraitement.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionDiagnostic.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeAlimentByfamille.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeAliments.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionListeConstante.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneCas.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneConstante.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneDicom.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneRepas.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOneVisite.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ImpressionOrdonnance.baml
+C:\pt\GestionClinique\obj\Debug\Patient\InsertAliments.baml
+C:\pt\GestionClinique\obj\Debug\Patient\InsertFamille.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ListePatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\NewPatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ReportListePatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\ReportPatient.baml
+C:\pt\GestionClinique\obj\Debug\Patient\VersementPatient.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\ImpressionListeRendezVous.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\ImpressionTicket.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\ListeRendezVous.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\PrendreRendezVous.baml
+C:\pt\GestionClinique\obj\Debug\RendezVous\RendezVous.baml
+C:\pt\GestionClinique\obj\Debug\RichTextEditorSample.baml
+C:\pt\GestionClinique\obj\Debug\RTFEditor\RTFBox.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AchatEtVenteProduit.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterAms.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterDci.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterFactureAchat.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterFournisseur.baml
+C:\pt\GestionClinique\obj\Debug\Stock\AjouterProduitOrdonnance.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionAchat.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionAMS.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionDestockage.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionFactureAchat.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionListeDesVersements.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionListFourn.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionMesAchats.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionProduit.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ImpressionStock.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDeProduitPourOronnance.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDesDci.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ListeDesVersements.baml
+C:\pt\GestionClinique\obj\Debug\Stock\ListeFournisseur.baml
+C:\pt\GestionClinique\obj\Debug\Stock\MesAchat.baml
+C:\pt\GestionClinique\obj\Debug\Stock\MonStock.baml
+C:\pt\GestionClinique\obj\Debug\GestionClinique.g.resources
+C:\pt\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl1.resources
+C:\pt\GestionClinique\obj\Debug\GestionClinique.Patient.ImagePanelControl.resources
+C:\pt\GestionClinique\obj\Debug\GestionClinique.Patient.WindowLevelGraphControl.resources
+C:\pt\GestionClinique\obj\Debug\GestionClinique.Properties.Resources.resources
+C:\pt\GestionClinique\obj\Debug\GestionClinique.csproj.GenerateResource.Cache
+C:\pt\GestionClinique\obj\Debug\RdlCompile.cache
+C:\pt\GestionClinique\obj\Debug\RdlCompile.compiled
+C:\pt\GestionClinique\obj\Debug\GestionClinique.TrustInfo.xml
+C:\pt\GestionClinique\obj\Debug\GestionClinique.exe.manifest
+C:\pt\GestionClinique\obj\Debug\GestionClinique.application
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Charts.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Data.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Mvvm.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Office.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Pdf.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Printing.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.RichEdit.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Spreadsheet.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Charts.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Controls.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Core.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Docking.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Layout.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.LayoutControl.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.NavBar.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Printing.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Ribbon.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.RichEdit.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Spreadsheet.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.CodeParser.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpo.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Data.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Mvvm.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Office.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Pdf.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Printing.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.RichEdit.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Spreadsheet.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Charts.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Controls.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Core.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Docking.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Layout.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.LayoutControl.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.NavBar.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Printing.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Ribbon.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.RichEdit.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Spreadsheet.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.DataAccess.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Grid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpo.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Aceuill.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Editeur.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FeuilleCalcule.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Aceuill.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Editeur.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\FeuilleCalcule.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Diabetosoft.exe.config
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft_Content.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft_MarkupCompile.cache
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft_MarkupCompile.lref
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\Achatsdesproduits.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAlerte.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListeAchats.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionStockalertePerme.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeProduit.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\PeremptionAlerte.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionArret.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Diabetosoft.exe.manifest
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Diabetosoft.application
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Diabetosoft.exe
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\Diabetosoft.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\Achatsdesproduits.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterFamilleProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\AjouterProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionAlerte.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionListeAchats.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ImpressionStockalertePerme.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeFamilleProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\ListeProduit.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Stock\PeremptionAlerte.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\EtatEtRapport\ImpressionArret.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.g.resources
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.TrustInfo.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.exe.manifest
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.application
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.exe
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\WpfAnimatedGif.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\WpfAnimatedGif.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\OrdoParam.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Diagram.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Images.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.PivotGrid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Sparkline.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Diagram.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.PivotGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.PropertyGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.ReportDesigner.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraCharts.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraGauges.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraReports.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Diagram.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.PivotGrid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Sparkline.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.Diagram.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.PivotGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.PropertyGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.Xpf.ReportDesigner.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraCharts.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraGauges.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\DevExpress.XtraReports.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Denta6\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\OrdoParam.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Diabetosoft.exe.config
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Diabetosoft.exe.manifest
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Diabetosoft.application
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Diabetosoft.exe
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Diabetosoft.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\AeroWizard.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Aviad.WPF.Controls.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Charts.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.CodeParser.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Data.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Diagram.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Images.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Mvvm.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Office.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Pdf.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.PivotGrid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Printing.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.RichEdit.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.RichEdit.v17.1.Export.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Sparkline.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Spreadsheet.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Utils.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Utils.v17.1.UI.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Charts.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Controls.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Core.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.DataAccess.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Diagram.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Docking.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.DocumentViewer.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Grid.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Grid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Layout.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.LayoutControl.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.NavBar.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.PivotGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Printing.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.PropertyGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.ReportDesigner.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Ribbon.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.RichEdit.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Spreadsheet.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpo.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraCharts.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraEditors.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraGauges.v17.1.Core.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraPrinting.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraReports.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraReports.v17.1.Extensions.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\dragonz.actb.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\MahApps.Metro.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.ReportViewer.Common.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.ReportViewer.WebForms.DLL
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.ReportViewer.WinForms.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.Speech.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\System.Windows.Controls.DataVisualization.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\System.Windows.Controls.Input.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\System.Windows.Controls.Layout.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\System.Windows.Interactivity.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\WpfAnimatedGif.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\WPFToolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.AvalonDock.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.DataGrid.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Xceed.Wpf.Toolkit.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraBars.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraTreeList.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraRichEdit.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraVerticalGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraLayout.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.DataAccess.v17.1.UI.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraCharts.v17.1.Wizard.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraCharts.v17.1.Extensions.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraPivotGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraNavBar.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraGrid.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.SqlServer.Types.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraDiagram.v17.1.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\AeroWizard.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Data.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.DataAccess.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Diagram.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Mvvm.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Office.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Pdf.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.PivotGrid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Printing.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.RichEdit.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Sparkline.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Spreadsheet.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Utils.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Utils.v17.1.UI.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Charts.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Controls.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Core.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Diagram.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Docking.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.DocumentViewer.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Grid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Grid.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Layout.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.LayoutControl.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.NavBar.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.PivotGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Printing.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.PropertyGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.ReportDesigner.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Ribbon.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.RichEdit.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpf.Spreadsheet.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.Xpo.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraCharts.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraEditors.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraGauges.v17.1.Core.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraPrinting.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraReports.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraReports.v17.1.Extensions.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\MahApps.Metro.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\MahApps.Metro.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Microsoft.ReportViewer.WinForms.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\System.Windows.Controls.DataVisualization.Toolkit.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\WpfAnimatedGif.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraBars.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraTreeList.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraRichEdit.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraVerticalGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraLayout.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.DataAccess.v17.1.UI.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraCharts.v17.1.Wizard.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraPivotGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraNavBar.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraGrid.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\DevExpress.XtraDiagram.v17.1.xml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Data.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.DataAccess.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Diagram.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Office.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Pdf.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.PivotGrid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Printing.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.RichEdit.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Sparkline.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Spreadsheet.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Utils.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Utils.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Charts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Controls.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Core.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Docking.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.DocumentViewer.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Grid.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.LayoutControl.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.NavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Printing.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.PropertyGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Ribbon.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.RichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpf.Spreadsheet.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.Xpo.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraCharts.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraEditors.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraGauges.v17.1.Core.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraPrinting.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraReports.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraReports.v17.1.Extensions.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\fr\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\hu\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\it\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ro\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\sv\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraBars.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraTreeList.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraRichEdit.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraVerticalGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraLayout.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.DataAccess.v17.1.UI.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraCharts.v17.1.Wizard.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraPivotGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraNavBar.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\DevExpress.XtraGrid.v17.1.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\de\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\es\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\fr\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\it\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ja\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ko\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\pt\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\ru\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Diabetosoft.exe.licenses
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Madaa.Lib.Win.Services.dll
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\bin\Diabetosoft\Madaa.Lib.Win.Services.pdb
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\Dictionnaire.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\DétailTerminologie.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\DétailTerminologie.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\DocumentImportant\Dictionnaire.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterDictionnaire.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\DictionnaireListe.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\AjouterDictionnaire.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Administrateur\DictionnaireListe.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\VisiteAs.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\VisiteAs.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\BonExamen.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\BonExamen.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionBonExamen.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionBonExamen.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionExamenRadio.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionExamenRadio.baml
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionAutreBilan.g.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\Patient\ImpressionAutreBilan.baml
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\Diabetosoft\Diabetosoft.exe.config
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Diabetosoft.exe
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\obj\Debug\Diabetosoft.pdb
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\Diabetosoft.exe.config
+D:\wpf\sauv\avant optics\NewOptics\GestionClinique\bin\NewOptics\NewOptics.exe.config

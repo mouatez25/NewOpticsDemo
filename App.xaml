@@ -1,0 +1,24 @@
+﻿<Application x:Class="NewOptics.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NewOptics"
+              StartupUri="Authentification.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Colors.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
+                <ResourceDictionary Source="ressources/GreyButton.xaml" />
+ 
+            </ResourceDictionary.MergedDictionaries>
+            <!--locald:ViewModel x:Key="vm"/!-->
+            <FontFamily x:Key="NotoSans">pack://application:,,,/Fonts/#c39hrp24dhtt</FontFamily>
+
+
+        </ResourceDictionary>
+ 
+    </Application.Resources>
+</Application>

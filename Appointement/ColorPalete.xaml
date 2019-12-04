@@ -1,0 +1,114 @@
+﻿<dx:DXWindow x:Class="NewOptics.Appointement.ColorPalete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                       xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+   dx:ThemeManager.ThemeName="LightGray"
+                         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" Title="couleur palette"
+      d:DesignHeight="300" d:DesignWidth="300"   Opacity="1"   ResizeMode="NoResize" WindowStyle="SingleBorderWindow"  Icon="/NewOptics;component/Dent6.ico" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"      WindowStartupLocation="CenterScreen"  BorderThickness="0"    FontSize="16" FontFamily="Times New Roman" AllowDrop="True"   >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="6*" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <ListBox Name="lsbBrushes" ItemsSource="{Binding}" Margin="10"
+    ScrollViewer.HorizontalScrollBarVisibility="Disabled" BorderBrush="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" FontFamily="Times New Roman" BorderThickness="1">
+            <!-- Context Menu -->
+            <ListBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Copy Name" Click="CopyName_Click"></MenuItem>
+                    <MenuItem Header="Copy Hex" Click="CopyHex_Click"></MenuItem>
+                </ContextMenu>
+            </ListBox.ContextMenu>
+            <!-- Item Panel Template just for show items in warp mode -->
+            <ListBox.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel />
+                </ItemsPanelTemplate>
+            </ListBox.ItemsPanel>
+            <!-- Items Data Template -->
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition />
+                            <ColumnDefinition Width="50"/>
+                        </Grid.ColumnDefinitions>
+                        <Rectangle Fill="{Binding Path=Name}" 
+                    Stroke="Black" Margin="5"
+                    StrokeThickness="1" Height="30" Width="40"/>
+                        <StackPanel Grid.Column="1">
+                            <Label Content="{Binding Path=Name}" />
+                            <Label Content="{Binding Path=Hex}" />
+                        </StackPanel>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <Button x:Name="btnCreer" Content="" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Width="35" Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" FontFamily="Times New Roman" FontSize="16" Click="btnCreer_Click" Grid.Column="1" Margin="0" Grid.ColumnSpan="2" BorderBrush="{x:Null}" Height="35" ToolTip="Mettre à jours" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                            <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                            <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/NewOptics;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</dx:DXWindow>

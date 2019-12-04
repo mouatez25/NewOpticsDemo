@@ -1,0 +1,39 @@
+﻿<dx:DXWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+     xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      dx:ThemeManager.ThemeName="Office2010Black"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                      xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionClinique.DocumentImportant"
+        xmlns:Documents="clr-namespace:System.Windows.Documents;assembly=PresentationUI" x:Class="GestionClinique.DocumentImportant.LivreViewer"
+        mc:Ignorable="d"
+        Title="l'alimentation de la personne diabétique" Height="650" Width="1000"  ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen"   FontFamily="Times New Roman" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"  >
+ 
+   
+    <Grid>
+        <dx:DXTabControl Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+
+            <dx:DXTabItem Header="l'alimentation de la personne diabétique (Salim Djelouat)" BorderBrush="{x:Null}" Foreground="#FFB27300" FontSize="20" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.05*" />
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <DocumentViewer Name="documentviewWord" Grid.RowSpan="2" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}">
+                        <DocumentViewer.CommandBindings>
+                            <CommandBinding Command="ApplicationCommands.Print" CanExecute="CommandBinding_CanExecutePrint" />
+                            <CommandBinding Command="ApplicationCommands.Copy" CanExecute="CommandBinding_CanExecuteCopy" />
+                        </DocumentViewer.CommandBindings>
+                    </DocumentViewer>
+                </Grid>
+            </dx:DXTabItem>
+
+            </dx:DXTabControl>
+    </Grid>
+</dx:DXWindow>

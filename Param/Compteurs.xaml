@@ -1,0 +1,240 @@
+﻿<Page x:Class="NewOptics.Param.Compteurs"
+    xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" 
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    
+     xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+      xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls"
+          xmlns:dxwuin="http://schemas.devexpress.com/winfx/2008/xaml/windowsui/navigation"
+             xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+                 xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+            xmlns:local="clr-namespace:NewOptics.Param" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80px" />
+
+            <RowDefinition  />
+           
+        </Grid.RowDefinitions>
+        <DockPanel  Grid.Row="0" VerticalAlignment="Center" HorizontalAlignment="Left" >
+            <Label Content="Autres Paramètres" />
+        </DockPanel>
+
+        <Grid x:Name="InfGénéral" Grid.Row="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" >
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+   
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition  />
+                <RowDefinition Height="50px" />
+              
+
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <Border x:Name="windowBorderDatagridCasTraiter" IsEnabled="True" BorderThickness="3" CornerRadius="20" BorderBrush="#FF2D3F5D" Margin="5,5,5,0" Grid.RowSpan="10" Grid.ColumnSpan="2">
+
+                <Grid x:Name="GridAdmin" Grid.Row="6" Grid.RowSpan="5" Grid.ColumnSpan="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="labelPrgs" Text="Compteur"  FontFamily="Tahoma" Grid.Row="0" FontSize="18" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Visibility="Visible" Grid.ColumnSpan="2" />
+                    <TextBlock Grid.Row="1" HorizontalAlignment="Left" Text="Factures :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="compteurfacture"  Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptfacture, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="2" HorizontalAlignment="Left" Text="Avoirs Factures :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="avoirfacture" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptavoir, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="3" HorizontalAlignment="Left" Text="Bon livraison :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptbon"  Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptbon, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="4" HorizontalAlignment="Left" Text="Avoirs Bon livr. :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptcavoirbon"   Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptcavoirbon, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="5" HorizontalAlignment="Left" Text="Proforma :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptproforma"  Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptproforma, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="6" HorizontalAlignment="Left" Text="Facture de route :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptfactureroute"  Grid.Row="6" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptfactureroute, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="7" HorizontalAlignment="Left" Text="Compteur caisse :" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptcaissecomptoir"   Grid.Row="7" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptcaissecomptoir, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+                    <TextBlock Grid.Row="8" HorizontalAlignment="Left" Text="Compteur Bons de Commandes:" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="10,0,0,0" FontFamily="Tahoma" FontWeight="Bold" />
+                    <TextBox x:Name="comptboncommandefourn"  Grid.Row="8" Grid.Column="1" VerticalAlignment="Center" Text="{Binding comptboncommandefourn, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="10,0" />
+
+
+
+
+
+
+
+                </Grid>
+
+            </Border>
+            <Border x:Name="windowBorderDatdagridCasTraiter" IsEnabled="True" BorderThickness="3" CornerRadius="20" BorderBrush="#FF2D3F5D" Margin="5,5,5,0" Grid.RowSpan="6" Grid.Column="2" Grid.ColumnSpan="4">
+
+                <Grid x:Name="GridMedecin" Grid.Row="1" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="labelPrgRe"  FontFamily="Tahoma" Grid.Row="0" FontSize="18" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Visibility="Visible" Grid.ColumnSpan="2" ><Run Text="Vente"/></TextBlock>
+                    <CheckBox x:Name="chaRendz" IsChecked="{Binding affiben, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="1" HorizontalAlignment="Left" Content="Faire apparaitre le Bénéfice dans la vente" VerticalAlignment="Bottom" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chcreerRendz" Visibility="Collapsed" IsChecked="{Binding affisolde, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Content="Imprimer le solde Global du client à chaque impression des documents de ventes" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chmodifRendz" IsChecked="{Binding modidate, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Permettre la modification de la Date dans la vente" Margin="20,0,0,0" FontSize="14" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chsuppRendz" IsChecked="{Binding ModiPrix, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Permettre la modification du prix dans la vente" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chsuppdfRendz" IsChecked="{Binding ModifTarif, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="4" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Permettre la modification des tarifs dans la vente" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+
+                    <CheckBox  x:Name="chimprRendz" IsChecked="{Binding AffichPrixAchatVente, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="5" HorizontalAlignment="Left" VerticalAlignment="Center" Content="afficher le prix d'achat dans la vente" Margin="20,0,0,0" FontSize="14" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chimprtva" IsChecked="{Binding FactureSansTva, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="6" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Imprimer facture sans TVA" Margin="20,0,0,0" FontSize="14" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+                    <CheckBox  x:Name="chimprcol" IsChecked="{Binding ImpressionCollisage, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="7" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Imprimer le colisage  dans les bon de livraison" Margin="20,0,0,0" FontSize="14" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+
+
+
+                    <TextBlock Grid.Row="8" HorizontalAlignment="Left" Text="Interdire la vente des produits avec péremption de moins " VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Grid.ColumnSpan="2" />
+                    <TextBox x:Name="txtperemption" Text="{Binding interdirperempt, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="8" HorizontalAlignment="Center" Margin="270,0,0,0" Width="50" VerticalAlignment="Center" Grid.ColumnSpan="2" />
+                    <TextBlock Grid.Row="8" HorizontalAlignment="Center" Text="jours " VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="360,0,0,0" FontFamily="Tahoma" FontSize="14" Grid.ColumnSpan="2" />
+                    <TextBlock Grid.Row="9" HorizontalAlignment="Left" Text="Taux de remise maximum par vente " VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Grid.ColumnSpan="2" />
+                    <TextBox x:Name="txtmaxremisevente" Grid.Row="9" Text="{Binding maxremisevente, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" HorizontalAlignment="Center" Margin="61,0,-1,0" Width="50" VerticalAlignment="Center" Grid.ColumnSpan="2" />
+                    <TextBlock Grid.Row="9" HorizontalAlignment="Center" Text="% " VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="150,0,0,0" FontFamily="Tahoma" FontSize="14" Grid.ColumnSpan="2" />
+
+
+
+
+
+                </Grid>
+
+            </Border>
+            
+                <Border x:Name="windowBorderDatdagridCasTssraiter" IsEnabled="True" BorderThickness="3" CornerRadius="20" BorderBrush="#FF2D3F5D" Margin="5,5,5,0" Grid.RowSpan="2" Grid.Column="2" Grid.ColumnSpan="4" Grid.Row="6">
+                <Grid x:Name="GriddMedecin" Grid.Row="1" Grid.RowSpan="5" Grid.Column="1" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="labedlPrgRe"  FontFamily="Tahoma" Grid.Row="0" FontSize="18" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Visibility="Visible" Grid.ColumnSpan="2" ><Run Text="Achat"/></TextBlock>
+                    <CheckBox x:Name="chCoutMoyen" IsChecked="{Binding coutmoyen, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="3" HorizontalAlignment="Left" VerticalAlignment="Center" Content="Utiliser le coût moyen pondéré et ne garder q'une seule fiche par produit" Margin="20,0,0,0" FontFamily="Tahoma" FontSize="14" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+
+                </Grid>
+            </Border>
+            <Button x:Name="BtnVider" Grid.Row="8" Grid.Column="3" Content="Vider les produits avec quantité = zéro" Click="BtnVider_Click" Grid.ColumnSpan="2" Grid.RowSpan="2" Width="250" Height="25" MaxHeight="25" />
+
+
+            <Grid Grid.Row="12" Grid.Column="1" Grid.ColumnSpan="4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="61*"/>
+                    <ColumnDefinition Width="390*"/>
+                    <ColumnDefinition Width="430*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnValider" Width="40" IsEnabled="True" HorizontalAlignment="Left" Content="" FontFamily="Times New Roman" FontWeight="Bold" Margin="0" Foreground="Red" ClickMode="Press" Grid.Column="2" Click="btnValider_Click" Height="40" BorderBrush="{x:Null}" >
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Style.BasedOn>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                    <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                    <Setter Property="MinHeight" Value="25"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+                                    <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                    <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                    <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                    <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                    <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                    <Setter Property="Padding" Value="5,6"/>
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Grid>
+                                                    <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                    <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                    <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                    <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+
+                                                        <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                        <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="False">
+                                                        <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Style.BasedOn>
+                        </Style>
+                    </Button.Style>
+                    <Button.Background>
+                        <ImageBrush ImageSource="/NewOptics;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+                    </Button.Background>
+                </Button>
+
+            </Grid>
+            <UserControl x:Name="BACK" Background="LightGray" Visibility="Collapsed" Opacity="0.6" Grid.ColumnSpan="6" Grid.RowSpan="8" Panel.ZIndex="99"/>
+
+           
+        </Grid>
+
+
+
+
+    </Grid>
+</Page>

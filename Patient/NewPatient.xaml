@@ -1,0 +1,172 @@
+﻿<dx:DXWindow x:Class="GestionClinique.Patient.NewPatient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                         xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+     dx:ThemeManager.ThemeName="Office2010Black"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionClinique.Patient"
+        mc:Ignorable="d"
+        Title="Patient"   Opacity="1"    WindowStyle="SingleBorderWindow"  Icon="/Diabetosoft;component/Dent6.ico" Background="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}"  Height="550" Width="700" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen"  BorderThickness="0"    FontSize="16" FontFamily="Times New Roman" AllowDrop="True"   >
+
+
+
+
+    <Grid x:Name="PatientGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="75" />
+            <RowDefinition Height="75*"  />
+            <RowDefinition Height="75*"  />
+            <RowDefinition Height="75*"  />
+            <RowDefinition Height="74*"  />
+            <RowDefinition Height="75*"  />
+            <RowDefinition Height="74*"  />
+            <RowDefinition Height="75*"  />
+            <RowDefinition  Height="75*"/>
+            <RowDefinition  Height="75*"/>
+            <RowDefinition  Height="75*"/>
+            <RowDefinition  Height="75*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="6*" />
+            <ColumnDefinition Width="49*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <Label x:Name="f" Content="CREER PATIENT"  BorderThickness="1" FontSize="22" FontFamily="Tahoma"  VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" HorizontalAlignment="Left" FontWeight="Bold" Background="#FFB27300" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Width="220" Margin="5,0,0,0" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+
+        <Label x:Name="df" Content="Medecin Traitant" FontSize="16" FontFamily="Tahoma" FontWeight="Normal" Margin="0,7" VerticalAlignment="Center" Foreground="#FFB27300" Grid.Row="10" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="2" />
+
+        <ComboBox  x:Name="txtMedecin"  Margin="64,8,0,8" FontFamily="Tahoma" FontSize="13.333"  Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" IsTextSearchCaseSensitive="True" Grid.Row="10" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FFB27300">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Nom}"  />
+                        <TextBlock Text=" " />
+                        <TextBlock Text="{Binding Prénom}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <TextBlock Text="Réf" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14.667" Margin="150,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtRéf" Text="{Binding Ref, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,0,0,0"  MaxLength="50" FontFamily="Tahoma" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Right" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Grid.ColumnSpan="2" Width="100" KeyDown="txtRéf_KeyDown" />
+        <TextBlock Text="Nom" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="1" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtNom" Text="{Binding Nom, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="1" TextChanged="txtNom_TextChanged" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+        <TextBlock Text="*" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="1" FontSize="14.667" Margin="0,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Red" />
+        <TextBlock Text="*" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="2" FontSize="14.667" Margin="0,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Red" />
+        <TextBlock Text="*" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="3" FontSize="14.667" Margin="0,0,20,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Red" />
+        <TextBlock Text="*" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="3" FontSize="14.667" Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Red" Grid.Column="2" />
+        <TextBlock Text="*" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="10" FontSize="14.667" Margin="0,0,10,0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="Red" Grid.Column="2" />
+
+        <TextBlock Text="Prénom" FontWeight="Normal" FontFamily="Tahoma" Grid.Row="2" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" VerticalAlignment="Top" />
+        <TextBox x:Name="txtPrenom" Text="{Binding Prénom, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="2" TextChanged="txtPrenom_TextChanged" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+
+        <TextBlock Text="Date Naiss" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,25" HorizontalAlignment="Left" Grid.Row="3" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+
+        <DatePicker x:Name="txtDate"  SelectedDate="{Binding DateDeNaissance, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true,StringFormat={}\{0:dd/MM/yyyy\}}" Margin="80,6,0,6"   FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="3" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FFB27300"/>
+        <TextBlock Text="Sexe, Etat Civ" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="3" FontSize="14.667" Margin="10,0,0,26" HorizontalAlignment="Left" Grid.Column="1" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <ComboBox x:Name="SexeCombo" SelectedValuePath="Content" SelectedValue="{Binding Sexe, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Row="3" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="64,7,0,8" Width="85" FontFamily="Tahoma" FontWeight="Bold" FontSize="16" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FFB27300" >
+            <ComboBoxItem Content="F" FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="F" Controls:ControlsHelper.ContentCharacterCasing="Lower" IsSelected="True" />
+            <ComboBoxItem Content="M"  FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="M"/>
+        </ComboBox>
+
+        <ComboBox x:Name="EtatCivicCombo" Grid.Row="3" SelectedValuePath="Content" SelectedValue="{Binding EtatCiv, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Grid.Column="2" HorizontalAlignment="Left" VerticalAlignment="Center" IsTextSearchCaseSensitive="True" Margin="154,7,0,8" Width="130" FontFamily="Tahoma" FontSize="18.667" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FFB27300">
+            <ComboBoxItem Content="Célibataire" FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="Célibataire" Controls:ControlsHelper.ContentCharacterCasing="Lower" IsSelected="True" />
+            <ComboBoxItem Content="Marié"  FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="Marié"/>
+            <ComboBoxItem Content="Divorcé" FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="Divorcé" Controls:ControlsHelper.ContentCharacterCasing="Lower" />
+            <ComboBoxItem Content="Veuf"  FontWeight="Bold" FontSize="14" FontFamily="Times New Roman" Tag="Veuf"/>
+        </ComboBox>
+        <TextBlock Text="Numéro SS" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="4" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtSS" Text="{Binding NuméroSS, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="4" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="Assurance" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="4" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" Grid.Column="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtAssurance" Text="{Binding Assurance, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="64,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="Fonction" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="5" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtFonction" Text="{Binding Fonction, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,7,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="5" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="Email" FontWeight="Normal" FontFamily="Tahoma" Grid.Row="5" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" Grid.Column="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtEmail" Text="{Binding Email, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="64,7,0,7"  MaxLength="50" FontFamily="Times New Roman" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="5" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+
+        <TextBlock Text="Tel perso" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="6" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtTelPerso" Text="{Binding Mobile, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="6" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="Tel fixe" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="6" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" Grid.Column="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtTelfixe" Text="{Binding Téléphone, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="64,8,0,7"  MaxLength="50" FontFamily="Tahoma" FontSize="16" Width="220" VerticalAlignment="Center" HorizontalAlignment="Left" Grid.Row="6" Grid.Column="2" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" SelectionBrush="#FFB27300" />
+
+
+        <TextBlock Text="Adresse" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="7" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtAdresse" TextWrapping="Wrap" Text="{Binding Adresse, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,20,0,41"  MaxLength="256" FontFamily="Tahoma" FontSize="16" Width="220" HorizontalAlignment="Left" Grid.Row="7"  Height="65" Grid.RowSpan="3" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="Crédit :" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="9" FontSize="14.667" Margin="10,13,0,12" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtCrédit" TextWrapping="Wrap" Text="{Binding Solde, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="256" FontFamily="Tahoma" FontSize="16" Width="220" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Center" KeyDown="txtCrédit_KeyDown" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+
+        <TextBlock Text="N° Dossier :" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="10" FontSize="14.667" Margin="10,13,0,12" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="DossierTXT" TextWrapping="Wrap" Text="{Binding Dossier, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="256" FontFamily="Tahoma" FontSize="16" Width="100" HorizontalAlignment="Left" Grid.Row="10" VerticalAlignment="Center" KeyDown="DossierTXT_KeyDown" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+        <TextBlock Text="Groupe sanguin :" FontWeight="Normal"  FontFamily="Tahoma" Grid.Row="9" FontSize="14.667" Margin="10,0,0,10.667" HorizontalAlignment="Left" VerticalAlignment="Bottom" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Grid.Column="1" Grid.ColumnSpan="2" />
+        <TextBox x:Name="GroupeTXT" TextWrapping="Wrap" Text="{Binding GroupeSanguin, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="80,8,0,7"  MaxLength="256" FontFamily="Tahoma" FontSize="16" Width="100" HorizontalAlignment="Left" Grid.Row="9" VerticalAlignment="Center"  Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Grid.Column="3" SelectionBrush="#FFB27300" />
+        <TextBlock Text="Remarques" FontWeight="Normal" FontFamily="Tahoma" Grid.Row="7" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" Grid.Column="1" VerticalAlignment="Top" Grid.ColumnSpan="2" Foreground="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" />
+        <TextBox x:Name="txtRemarque" TextWrapping="Wrap" Text="{Binding Remarques, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Margin="64,20,0,41"  MaxLength="256" FontFamily="Tahoma" FontSize="16" Width="220" HorizontalAlignment="Left" Grid.Row="7"  Height="65" Grid.Column="2" Grid.RowSpan="3" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" SelectionBrush="#FFB27300" />
+        <Border Name="windowBorderPhoto" Margin="64,10,25,40" BorderThickness="5" CornerRadius="20" Background="{DynamicResource {x:Static SystemColors.InactiveCaptionTextBrushKey}}" BorderBrush="#FFB27300" Grid.Column="2" Grid.RowSpan="3">
+            <Image Margin="5,5,5,5" Name="imgPhoto" Stretch="Fill" Grid.Column="1" Grid.RowSpan="3" Source="/Diabetosoft;component/Images/PatientInconu.jpg" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        </Border>
+        <Button Name="btnOpenFile" Click="btnOpenFile_Click" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="150" FontFamily="Times New Roman" Grid.Column="2" Grid.Row="2" Margin="54,0,0,5" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Height="30">télécharger Image
+        </Button>
+
+        <Button x:Name="btnCreer" Content="" BorderThickness="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Bottom" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontFamily="Tahoma" FontSize="12" Click="btnCreer_Click" BorderBrush="{x:Null}" Width="60" Height="60" Grid.ColumnSpan="2" ToolTip="Valider" Margin="300,0,6,-9" Grid.RowSpan="2" >
+            <Button.Background>
+                <ImageBrush ImageSource="/Diabetosoft;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+
+        </Button>
+    </Grid>
+
+</dx:DXWindow>

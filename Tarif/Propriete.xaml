@@ -1,0 +1,36 @@
+﻿<Window x:Class="NewOptics.Tarif.Propriete"
+       xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"  
+             
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+               xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+   
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+          xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewOptics.Tarif"
+         xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="Propriétés" Height="150" Width="350"  Opacity="1"    WindowStyle="SingleBorderWindow"  Icon="/NewOptics;component/Dent6.ico" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}"   ResizeMode="NoResize"  WindowStartupLocation="CenterScreen"  BorderThickness="0"    FontSize="16" FontFamily="Tahoma" AllowDrop="True"   >
+  
+        <Grid x:Name="GridProp">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition    />
+            <RowDefinition />
+            <RowDefinition    />
+            <RowDefinition />
+         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Propriété de la relation verre - supplément" FontWeight="Bold" FontFamily="Tahoma" FontSize="12" Margin="10,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+        <TextBlock Text="Verre :" FontFamily="Tahoma" FontSize="12" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF2D3F5D" Grid.Row="1" />
+        <TextBlock Text="Suppl :" FontFamily="Tahoma" FontSize="12" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF2D3F5D" Grid.Row="2" />
+        <CheckBox Content="Ce supplément est obligatoire avec ce verre" IsChecked="{Binding Obligatoire, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" FontSize="12" Grid.ColumnSpan="2"/>
+        <TextBlock Text="{Binding Designation, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"  FontFamily="Tahoma" FontSize="12" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" Grid.Row="1" Grid.Column="1" FontWeight="Bold" />
+        <TextBlock x:Name="ExSupp" Text="Exemple de supplément"  FontFamily="Tahoma" FontSize="12" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="#FF8D0000" Grid.Row="2" Grid.Column="1" FontWeight="Bold" />
+
+    </Grid>
+</Window>

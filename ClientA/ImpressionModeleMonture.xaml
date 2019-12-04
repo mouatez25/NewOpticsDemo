@@ -1,0 +1,95 @@
+﻿<Window
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+                 xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls"
+         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+        xmlns:local="clr-namespace:NewOptics.ClientA"
+    x:Class="NewOptics.ClientA.ImpressionModeleMonture"
+    
+        mc:Ignorable="d"
+        Title="ImpressionModeleMonture" Height="200" Width="300" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition    />
+            <RowDefinition />
+            <RowDefinition    />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <RadioButton FontFamily="Tahoma" IsChecked="True"  GroupName="1" Margin="20,0,0,0" Content="Fiche atelier" HorizontalAlignment="Left" />
+        <RadioButton FontFamily="Tahoma" GroupName="1" Margin="20,0,0,0" Content="Reçu" HorizontalAlignment="Left" Grid.Row="1" />
+
+        <RadioButton FontFamily="Tahoma" GroupName="1" Margin="20,0,0,0" Content="Fiche atelier + reçu" HorizontalAlignment="Left" Grid.Row="2" />
+        <RadioButton FontFamily="Tahoma" GroupName="1" Margin="20,0,0,0" Content="Fiche atelier en double" HorizontalAlignment="Left" Grid.Row="3" />
+        <RadioButton Grid.Row="4" Content="Impression A4" Margin="20,0,0,0" HorizontalAlignment="Left" GroupName="Sel" FontFamily="Tahoma" />
+        <RadioButton Grid.Row="4" Content="Impression A5" HorizontalAlignment="Center" GroupName="Sel" FontFamily="Tahoma" Margin="100,0,0,0" />
+
+        <Button x:Name="btnCreerImpression" Content="" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Width="30"  Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" FontFamily="Times New Roman" FontSize="16" Grid.Column="1" Margin="0" ToolTip="Valider" Height="30" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="/NewOptics;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+            </Button.Background>
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                            <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                            <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Custom:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Custom:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+        </Button>
+
+    </Grid>
+</Window>

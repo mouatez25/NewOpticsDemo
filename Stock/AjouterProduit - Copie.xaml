@@ -1,0 +1,697 @@
+﻿<dx:DXWindow x:Class="NewOptics.Stock.AjouterProduit"
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+         
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+     dx:ThemeManager.ThemeName="LightGray"
+                   
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewOptics.Stock"
+        mc:Ignorable="d"
+        Title="Produit"  Height="550" Width="650"  Opacity="1"    WindowStyle="SingleBorderWindow"  Icon="/NewOptics;component/Dent6.ico" Background="{x:Null}"   ResizeMode="NoResize"  WindowStartupLocation="CenterScreen"  BorderThickness="0"    FontSize="16" FontFamily="Tahoma" AllowDrop="True"   >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="50"  />
+
+        </Grid.RowDefinitions>
+        <TabControl x:Name="Détail" BorderThickness="0" Margin="10,0" FontFamily="Tahoma" Grid.Column="1" >
+            <TabItem x:Name="Achattab"  FontSize="14" FontFamily="Tahoma" Header="Article" Margin="0" BorderBrush="#FFB27300" Background="{x:Null}">
+                <Grid x:Name="FournVousGrid">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="117*"/>
+
+                        <ColumnDefinition Width="194*"/>
+                        <ColumnDefinition Width="97*"/>
+                        <ColumnDefinition Width="194*"/>
+
+                    </Grid.ColumnDefinitions>
+                    <Border Name="windowBorderPhoto" Margin="30,3,25,0" BorderThickness="5" CornerRadius="20" BorderBrush="#FF2D3F5D" Grid.Column="2" Grid.RowSpan="5" Grid.ColumnSpan="2" Grid.Row="1">
+                        <Image Margin="5,5,5,5" Name="imgPhoto" Stretch="Fill" Grid.Column="1" Grid.RowSpan="3" Source="/NewOptics;component/Images/Produit.png" HorizontalAlignment="Left" VerticalAlignment="Center" >
+                            <Image.OpacityMask>
+                                <ImageBrush ImageSource="/NewOptics;component/Images/Produit.png"/>
+                            </Image.OpacityMask>
+                        </Image>
+                    </Border>
+                    <Button Name="btnOpenFile" Click="btnOpenFile_Click" VerticalAlignment="Center" HorizontalAlignment="Center" Width="150" FontFamily="Tahoma" Grid.Column="2" Grid.Row="6" Margin="0,5,0,0" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Background="#FF2D3F5D" Height="15" FontSize="8" Grid.ColumnSpan="2">télécharger Image
+                    </Button>
+                    <TextBlock Text="Designation :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                    <dxe:TextEdit x:Name="txtDesign" Text="{Binding design, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" EditValueChanged="txtDesign_EditValueChanged"  />
+ 
+                    <TextBlock Text="Stock Alerte :" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                    <dxe:TextEdit x:Name="txtStockAlert" Text="{Binding StockAlert, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" Grid.Row="1" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  KeyDown="txtStockAlert_KeyDown" />
+
+
+
+
+
+                    <TextBlock Text="Famille :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+
+
+                    <dxe:ComboBoxEdit x:Name="ListeDciCombo" DisplayMember="FamilleProduit1" SelectedIndex="0" DockPanel.Dock="Right" MinWidth="10" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Grid.Row="2" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Margin="0,0,35,0" Foreground="#FF2D3F5D" PopupClosed="ListeDciCombo_PopupClosed"   >
+                        <dxe:ComboBoxEdit.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock DataContext="{Binding}" Foreground="#FF2D3F5D">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{} {0}   {1}">
+                                            <Binding Path="Id" />
+                                            <Binding Path="FamilleProduit1" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </DataTemplate>
+                        </dxe:ComboBoxEdit.ItemTemplate>
+                    </dxe:ComboBoxEdit>
+                    <TextBlock Text="Marque :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                    <dxe:ComboBoxEdit x:Name="ListeMarqueCombo" DisplayMember="MarqueProduit" SelectedIndex="0" DockPanel.Dock="Right" MinWidth="10" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Grid.Row="3" Grid.Column="1" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Margin="0,0,35,0" Foreground="#FF2D3F5D" EditValueChanged="ListeMarqueCombo_EditValueChanged"  >
+                        <dxe:ComboBoxEdit.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock DataContext="{Binding}" Foreground="#FF2D3F5D">
+                                    <TextBlock.Text>
+                                        <MultiBinding StringFormat="{} {0}   {1}">
+                                            <Binding Path="Id" />
+                                            <Binding Path="MarqueProduit" />
+                                        </MultiBinding>
+                                    </TextBlock.Text>
+                                </TextBlock>
+                            </DataTemplate>
+                        </dxe:ComboBoxEdit.ItemTemplate>
+                    </dxe:ComboBoxEdit>
+
+                    <TextBlock Text="Code à barres :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                    <DataGrid x:Name="CodeDataGrid" Grid.Row="4" AutoGenerateColumns="False" ItemsSource="{Binding}" Margin="0" IsReadOnly="False" IsTextSearchCaseSensitive="True" Grid.RowSpan="3" FontFamily="Tahoma" GridLinesVisibility="None"  BorderBrush="{x:Null}" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" SelectionMode="Single" RowBackground="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" AlternatingRowBackground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Grid.Column="1" Foreground="#FF2D3F5D">
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="{x:Type DataGridColumnHeader}">
+                                <Setter Property="FontWeight" Value="SemiBold"/>
+                                <Setter Property="SnapsToDevicePixels" Value="True"/>
+                                <Setter Property="MinWidth" Value="0"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="Foreground" Value="{DynamicResource BlackBrush}"/>
+                                <Setter Property="Cursor" Value="Hand"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                <Setter Property="Padding" Value="10,4,4,7"/>
+                                <Setter Property="Margin" Value="0"/>
+                                <Setter Property="BorderThickness" Value="0,0,0,3"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource GrayBrush5}"/>
+                                <Setter Property="Background" Value="{DynamicResource GrayBrush8}"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Border x:Name="BackgroundBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.ColumnSpan="2"/>
+                                                <Path x:Name="SortArrow" Grid.Column="1" Fill="{DynamicResource GrayBrush2}" Height="10" Margin="0,0,8,2" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Visibility="Collapsed" VerticalAlignment="Center" Width="8"/>
+                                                <Thumb x:Name="PART_LeftHeaderGripper" Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+                                                    <Thumb.Style>
+                                                        <Style TargetType="{x:Type Thumb}">
+                                                            <Setter Property="Width" Value="8"/>
+                                                            <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                            <Setter Property="Cursor" Value="SizeWE"/>
+                                                            <Setter Property="Template">
+                                                                <Setter.Value>
+                                                                    <ControlTemplate TargetType="{x:Type Thumb}">
+                                                                        <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                            <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                                        </Border>
+                                                                    </ControlTemplate>
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </Style>
+                                                    </Thumb.Style>
+                                                </Thumb>
+                                                <Thumb x:Name="PART_RightHeaderGripper" Grid.Column="1" HorizontalAlignment="Right" HorizontalContentAlignment="Right">
+                                                    <Thumb.Style>
+                                                        <Style TargetType="{x:Type Thumb}">
+                                                            <Setter Property="Width" Value="8"/>
+                                                            <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                            <Setter Property="Cursor" Value="SizeWE"/>
+                                                            <Setter Property="Template">
+                                                                <Setter.Value>
+                                                                    <ControlTemplate TargetType="{x:Type Thumb}">
+                                                                        <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                            <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                                        </Border>
+                                                                    </ControlTemplate>
+                                                                </Setter.Value>
+                                                            </Setter>
+                                                        </Style>
+                                                    </Thumb.Style>
+                                                </Thumb>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="SortDirection" Value="{x:Null}">
+                                                    <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource WhiteBrush}"/>
+                                                </Trigger>
+                                                <MultiTrigger>
+                                                    <MultiTrigger.Conditions>
+                                                        <Condition Property="IsMouseOver" Value="True"/>
+                                                        <Condition Property="SortDirection" Value="{x:Null}"/>
+                                                    </MultiTrigger.Conditions>
+                                                    <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource GrayBrush8}"/>
+                                                </MultiTrigger>
+                                                <Trigger Property="SortDirection" Value="Ascending">
+                                                    <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                                    <Setter Property="Data" TargetName="SortArrow" Value="F1M34,57L42,57 42,32.25 52,42.25 52,31.75 38,17.75 24,31.75 24,42.25 34,32.25 34,57z"/>
+                                                </Trigger>
+                                                <Trigger Property="SortDirection" Value="Descending">
+                                                    <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                                    <Setter Property="Data" TargetName="SortArrow" Value="F1M42,19.0002L34,19.0002 34,43.7502 24,33.7502 24,44.2502 38,58.2502 52,44.2502 52,33.7502 42,43.7502 42,19.0002z"/>
+                                                    <Setter Property="Margin" TargetName="SortArrow" Value="0,0,8,0"/>
+                                                </Trigger>
+                                                <Trigger Property="DisplayIndex" Value="0">
+                                                    <Setter Property="Visibility" TargetName="PART_LeftHeaderGripper" Value="Collapsed"/>
+                                                </Trigger>
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter   Property="BorderThickness" Value="0,3,0,3"/>
+
+                                        <Setter Property="BorderBrush" Value="#CC119EDA"></Setter>
+                                        <Setter Property="FontWeight" Value="Bold"></Setter>
+                                        <Setter Property="FontSize" Value="20"></Setter>
+                                        <Setter Property="Background" Value="#CC119EDA" />
+                                        <Setter Property="Foreground" Value="White"></Setter>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.CellStyle>
+
+
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Liste des codes à barres"
+					Binding="{Binding cab}" Width="Auto" CanUserSort="True" FontFamily="Tahoma" IsReadOnly="False" FontSize="12" MinWidth="175" />
+
+
+
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <Button x:Name="btnPatient" Grid.Row="2" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="btnPatient_Click" Margin="0,0,5,0" Grid.Column="1" ToolTip="Nouvelle Famille" BorderBrush="{x:Null}" >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Style.BasedOn>
+                                    <Style TargetType="{x:Type Button}">
+                                        <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                        <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                        <Setter Property="MinHeight" Value="25"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                        <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                        <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                        <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                        <Setter Property="Padding" Value="5,6"/>
+                                        <Setter Property="BorderThickness" Value="1"/>
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                    <Grid>
+                                                        <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                        <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                        <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                        <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                    </Grid>
+                                                    <ControlTemplate.Triggers>
+                                                        <Trigger Property="IsMouseOver" Value="True">
+
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsPressed" Value="True">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsEnabled" Value="False">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        </Trigger>
+                                                    </ControlTemplate.Triggers>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Style.BasedOn>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Background>
+                            <ImageBrush ImageSource="/NewOptics;component/Administrateur/Images/1456624077_add_user.ico"/>
+                        </Button.Background>
+                    </Button>
+                    <Button x:Name="btnMarque" Grid.Row="3" HorizontalAlignment="Right" Width="25" Height="25" VerticalAlignment="Center" Click="btnMarque_Click" Margin="0,0,5,0" Grid.Column="1" ToolTip="Nouvelle Famille" BorderBrush="{x:Null}" >
+                        <Button.Style>
+                            <Style TargetType="{x:Type Button}">
+                                <Style.BasedOn>
+                                    <Style TargetType="{x:Type Button}">
+                                        <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                        <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                        <Setter Property="MinHeight" Value="25"/>
+                                        <Setter Property="FontWeight" Value="Bold"/>
+                                        <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                                        <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                                        <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                                        <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                                        <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                                        <Setter Property="Padding" Value="5,6"/>
+                                        <Setter Property="BorderThickness" Value="1"/>
+                                        <Setter Property="Template">
+                                            <Setter.Value>
+                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                    <Grid>
+                                                        <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                        <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                        <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                        <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                    </Grid>
+                                                    <ControlTemplate.Triggers>
+                                                        <Trigger Property="IsMouseOver" Value="True">
+
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsPressed" Value="True">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                            <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                        </Trigger>
+                                                        <Trigger Property="IsEnabled" Value="False">
+                                                            <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                            <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        </Trigger>
+                                                    </ControlTemplate.Triggers>
+                                                </ControlTemplate>
+                                            </Setter.Value>
+                                        </Setter>
+                                    </Style>
+                                </Style.BasedOn>
+                            </Style>
+                        </Button.Style>
+
+                        <Button.Background>
+                            <ImageBrush ImageSource="/NewOptics;component/Administrateur/Images/1456624077_add_user.ico"/>
+                        </Button.Background>
+                    </Button>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem x:Name="CATitem" IsEnabled="False" Visibility="Collapsed"  FontSize="14" FontFamily="Tahoma" Header="Catalogue Verre" Margin="0" BorderBrush="#FFB27300" Background="{x:Null}">
+                <Grid x:Name="FournVoujsGrid">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50" />
+                        <RowDefinition  />
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition />
+
+                    </Grid.ColumnDefinitions>
+                    <RadioButton x:Name="Rdesc" Content="Déscription" GroupName="Catalogue" HorizontalAlignment="Center" FontFamily="Tahoma" Foreground="#FF2D3F5D" FontSize="22" FontWeight="Bold" Checked="RadioButton_Checked" Unchecked="Rdesc_Unchecked" BorderBrush="#FF2D3F5D" />
+                    <RadioButton x:Name="Rtar" Content="Tarifications" GroupName="Catalogue" Grid.Column="3" HorizontalAlignment="Left" FontFamily="Tahoma" Foreground="#FF2D3F5D" FontSize="22" FontWeight="Bold" Checked="Rtar_Checked" Unchecked="Rtar_Unchecked" BorderBrush="#FF2D3F5D" />
+                    <Grid x:Name="GridVerre" Grid.Row="1" Grid.ColumnSpan="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition  />
+
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                            <RowDefinition  />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="0.6*"/>
+                            <ColumnDefinition Width="1*"/>
+                            <ColumnDefinition Width="0.5*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions> 
+                        <TextBlock Text="Réference :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                        <dxe:TextEdit x:Name="txtRef" IsEnabled="False" Text="{Binding Ref, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"   />
+                        <TextBlock Text="Matière :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="1" />
+                        <RadioButton x:Name="radMat1" GroupName="MatiéreGroup" Content="Minéral" Grid.Column="1" HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="1" BorderBrush="#FF2D3F5D" Background="{x:Null}" />
+                        <RadioButton x:Name="radMat2" GroupName="MatiéreGroup" Content="Organique" Grid.Column="1" HorizontalAlignment="Right" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="1" BorderBrush="#FF2D3F5D" Background="{x:Null}" />
+                        <RadioButton x:Name="radMat3" GroupName="MatiéreGroup" Content="Polycarbonate" Grid.Column="2" HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="1" Grid.ColumnSpan="2" Margin="20,0,0,0" Background="{x:Null}" BorderBrush="#FF2D3F5D" />
+                        <TextBlock Text="Type de Verre :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Column="2" Grid.ColumnSpan="2" />
+                        <ComboBox x:Name="TypeVerreComboBox" IsEditable="True" SelectedValue="{Binding TypeVerre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="10" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="20,0,10,0" Grid.Column="3" >
+                            <ComboBoxItem Content="Simple foyer" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                            <ComboBoxItem Content="Double foyer" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="Triple foyer" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="Multiple foyer" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="Asphérique" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+
+                        </ComboBox>
+                        <TextBlock x:Name="txtdiam" Text="Entrez le diamètre du verre. S'il existe plusieurs diamètres pour ce verre, entrez-les séparés par une virgule. Exemple: 65,70,75,80" TextWrapping="Wrap" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="2" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Grid.ColumnSpan="4" />
+
+                        <TextBlock Text="Diamètre(s) :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="3" />
+                        <dxe:TextEdit x:Name="txtDiam" Text="{Binding Diamètre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="3"   KeyDown="txtDiam_KeyDown" EditValueChanged="txtDiam_EditValueChanged" />
+                        <TextBlock Text="Fournisseur(s) :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="3" Grid.Column="2" />
+                        <dxe:TextEdit x:Name="txtFourn" Text="{Binding Fournisseur, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="4" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="3"  />
+                        <TextBlock Text="Choisissez l'indice du verre. Vous pouvez sélectionner un indice dans la liste ou l'inscrire manuellement s'il ne s'y trouve pas." TextWrapping="Wrap" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="4" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Grid.ColumnSpan="4" />
+
+                        <TextBlock Text="Indice du verre :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="5" />
+                        <ComboBox x:Name="CdompteComboBox" SelectedValue="{Binding IndiceVerre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" IsEditable="True" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="100" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Column="1" Grid.Row="5" HorizontalAlignment="Left" >
+                            <ComboBoxItem Content="1.5" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                            <ComboBoxItem Content="1.6" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="1.7" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="1.8" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="1.9" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+
+                        </ComboBox>
+                        <TextBlock Text="Surface :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="1" />
+                        <ComboBox x:Name="SurfaceComboBox" SelectedValue="{Binding Surface, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" IsEditable="True" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="100" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Column="2" Grid.Row="5" MinHeight="26" >
+                            <ComboBoxItem Content="Sphérique" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                            <ComboBoxItem Content="Asphérique" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                            <ComboBoxItem Content="Toroelliptique" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+
+
+                        </ComboBox>
+                        <TextBlock Text="Teinte :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="5" Grid.Column="2" />
+                        <dxe:TextEdit x:Name="txtTeinte" Text="{Binding Teinte, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="4" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="5" Margin="80,0,0,0"  />
+
+                        <TextBlock Text="Entrez les limites de fabrication du verre si elles vous sont connues. Exemple: -8 à +10" TextWrapping="Wrap" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="6" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Grid.ColumnSpan="4" />
+                        <RadioButton x:Name="Limit1"  GroupName="LimitGroup" Content="Limites de fabrications automatiques (selon le tableau des prix)." HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="7" Margin="20,0,0,0" Grid.ColumnSpan="4" Checked="Limit1_Checked" BorderBrush="#FF2D3F5D" Background="{x:Null}" />
+                        <RadioButton x:Name="Limit2"  GroupName="LimitGroup" Content="Limites sph de:" HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="8" Margin="20,0,0,0" Grid.ColumnSpan="4" Checked="Limit2_Checked" Background="{x:Null}" BorderBrush="#FF2D3F5D" />
+                        <dxe:TextEdit x:Name="txtLimDe" IsEnabled="False" Text="{Binding LimiteFab0, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"   Grid.Row="8" HorizontalAlignment="Left" MinWidth="70" Margin="10,0,0,0" />
+                        <TextBlock Text="à" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="8" Grid.Column="1" />
+                        <dxe:TextEdit x:Name="txtLimA" IsEnabled="False" Text="{Binding LimiteFab1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="8" HorizontalAlignment="Right" MinWidth="70" />
+                       
+
+
+                        <dxe:CheckEdit x:Name="ckteinté" IsChecked="{Binding VerreTeinté, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Content="Verre teinté" Grid.Row="9" Foreground="#FFFF008B" FontSize="16" FontWeight="Bold" BorderBrush="#FF2D3F5D"/>
+                        <dxe:CheckEdit x:Name="ckAphaque" IsChecked="{Binding Aphaque, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Content="Aphaque" Grid.Row="9" Foreground="#FFFF008B" FontSize="16" Grid.Column="1" HorizontalAlignment="Center" FontWeight="Bold" BorderBrush="#FF2D3F5D"/>
+                        <dxe:CheckEdit x:Name="ckPhotochromique" IsChecked="{Binding Photochromique, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Content="Photochromique" Grid.Row="9" Foreground="#FFFF008B" FontSize="16" Grid.Column="2" HorizontalAlignment="Left" FontWeight="Bold" Grid.ColumnSpan="2" BorderBrush="#FF2D3F5D"/>
+                        <dxe:TextEdit x:Name="txtLimiteAddFab0" IsEnabled="False" Text="{Binding LimiteAddFab0, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"   Grid.Row="8" HorizontalAlignment="Left" MinWidth="70" />
+                        <TextBlock Text="à" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="8" Grid.Column="3" />
+                        <TextBlock Text="Limite add de" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="8" Grid.Column="2" />
+
+                        <dxe:TextEdit x:Name="txtLimiteAddFab1" IsEnabled="False" Text="{Binding LimiteAddFab1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="8" HorizontalAlignment="Right" MinWidth="70" />
+
+                    </Grid>
+                    <Grid x:Name="GridVerreTarification" Visibility="Collapsed" Grid.ColumnSpan="2" Grid.Row="1">
+                        <Grid Grid.Row="1"  Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" AutomationProperties.IsRowHeader="True" AutomationProperties.IsColumnHeader="True" MinWidth="536" MinHeight="232">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                                <RowDefinition   />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition  />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+                                <ColumnDefinition />
+
+                            </Grid.ColumnDefinitions>
+                            <dx:SimpleButton x:Name="btnsauv" HorizontalAlignment="Center" VerticalAlignment="Bottom" MinWidth="80" MinHeight="26" Content="Sauv Tarif" Click="btnsauv_Click" />
+
+
+                            <TextBlock Text="Prix :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Right" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Column="2" />
+
+                            <ComboBox x:Name="PrixComboBox" IsEnabled="False" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="120" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Margin="0,0,20,0" Grid.Column="3" DropDownClosed="PrixComboBox_DropDownClosed" HorizontalAlignment="Center" >
+                                <ComboBoxItem Content="Prix de vente" FontSize="14" Foreground="#FF2D3F5D"/>
+                                <ComboBoxItem Content="Prix d'achat" FontSize="14" Foreground="#FF2D3F5D" />
+                            </ComboBox>
+                            <TextBlock Text="Diamètre :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Column="1" />
+
+                            <ComboBox x:Name="DiamComboBox" IsEnabled="False"  DockPanel.Dock="Left" MinWidth="120" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Margin="0,0,20,0" Grid.Column="1" DropDownClosed="DiamComboBox_DropDownClosed" Grid.ColumnSpan="2" HorizontalAlignment="Center" />
+
+
+                            <Grid x:Name="GridTarification" IsEnabled="False" Grid.Row="1" AutomationProperties.IsRowHeader="True" AutomationProperties.IsColumnHeader="True" MinWidth="536" MinHeight="232" Grid.ColumnSpan="4" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition />
+                                    <RowDefinition   />
+                                    <RowDefinition   />
+                                    <RowDefinition   />
+                                    <RowDefinition />
+                                    <RowDefinition   />
+                                    <RowDefinition   />
+                                    <RowDefinition   />
+                                    <RowDefinition   />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition  />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                    <ColumnDefinition />
+                                </Grid.ColumnDefinitions>
+                                <Label Content="0.00 - 2.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="1" Background="#FF99B4D1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                                <Label Content="2.25 - 4.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="2" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                                <Label Content="4.25 - 6.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="3" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="6.25 - 8.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="4" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="8.25 - 10.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="5" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="10.25 - 12.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="6" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="12.25 - 14.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="7" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="14.25 et plus" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Row="8" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+
+
+
+                                <Label Content="0.25 - 2.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Column="2" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+                                <Label Content="Sphérique" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" Grid.Column="1" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}"/>
+                                <Label Content="2.25 - 4.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Grid.Column="3"/>
+                                <Label Content="4.25 - 6.00" Foreground="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" FontWeight="Bold" Margin="5,0,0,0" FontSize="14" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Grid.Column="4"/>
+
+                                <dxe:TextEdit x:Name="A2"  Text="{Binding A2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="1" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="D2"  Text="{Binding D2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="4" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="A1"  Text="{Binding A1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="D1"  Text="{Binding D1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="4" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="A3"  Text="{Binding A3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="1" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="A4"  Text="{Binding A4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="1" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="D3"  Text="{Binding D3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="4" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="D4"  Text="{Binding D4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="4" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="B2"  Text="{Binding B2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="2" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="E2"  Text="{Binding E2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="5" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="B1"  Text="{Binding B1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="2" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="E1"  Text="{Binding E1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="B3"  Text="{Binding B3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="2" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="B4"  Text="{Binding B4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="2" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="E3"  Text="{Binding E3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="5" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="E4"  Text="{Binding E4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="5" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+
+                                <dxe:TextEdit x:Name="C2"  Text="{Binding C2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="3" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="F2"  Text="{Binding F2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="2" Grid.Row="6" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="C1"  Text="{Binding C1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="3" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="F1"  Text="{Binding F1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Column="1" Grid.Row="6" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" />
+                                <dxe:TextEdit x:Name="C3"  Text="{Binding C3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="3" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="C4"  Text="{Binding C4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="3" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="F3"  Text="{Binding F3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="6" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="F4"  Text="{Binding F4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="6" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="G1"  Text="{Binding G1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="7" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="1" />
+                                <dxe:TextEdit x:Name="G2"  Text="{Binding G2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="7" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="2" />
+                                <dxe:TextEdit x:Name="G3"  Text="{Binding G3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="7" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="G4"  Text="{Binding G4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="7" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                                <dxe:TextEdit x:Name="H1"  Text="{Binding H1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="8" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="1" />
+                                <dxe:TextEdit  x:Name="H2"  Text="{Binding H2, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="8" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="2" />
+                                <dxe:TextEdit x:Name="H3"  Text="{Binding H3, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="8" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="3" />
+                                <dxe:TextEdit x:Name="H4"  Text="{Binding H4, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" TextWrapping="Wrap" AcceptsReturn="True" Margin="5,0" FontFamily="Tahoma" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" MinWidth="100" Foreground="#FFFF008B" VerticalAlignment="Center" Grid.Row="8" MinHeight="22" Controls:TextBoxHelper.UseFloatingWatermark="True" Grid.Column="4" />
+
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+
+            </TabItem>
+            <TabItem x:Name="LENTitem" IsEnabled="False" Visibility="Collapsed" FontSize="14" FontFamily="Tahoma" Header="Catalogue Lentille" Margin="0" BorderBrush="#FFB27300" Background="{x:Null}">
+                <Grid x:Name="GridLentille" Grid.Row="1" Grid.ColumnSpan="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition  />
+
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                        <RowDefinition  />
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="0.6*"/>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="0.5*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="Réference :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="1" />
+                    <dxe:TextEdit x:Name="txtRefLentille" IsEnabled="True" Text="{Binding Ref, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Grid.Row="1" />
+                    <TextBlock Text="Fournisseur :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="2" />
+                    <dxe:TextEdit x:Name="txtFournLentille" Text="{Binding Fournisseur, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Grid.Row="2" />
+                    <TextBlock Text="Marque :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+                    <dxe:TextEdit x:Name="txtRefMarque" IsEnabled="False" Text="{Binding Marque, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" />
+                    <TextBlock Text="Modèle :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Column="2" />
+                    <dxe:TextEdit x:Name="txtModeleLentille" Text="{Binding Modele, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  />
+
+                    <TextBlock Text="Type de Lentille :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="2" />
+                    <ComboBox x:Name="TypeLentilleComboBox" IsEditable="True" SelectedValue="{Binding TypeLentille, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="10" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="30,0,0,0" Grid.Column="3" Grid.Row="2" >
+                        <ComboBoxItem Content="Unifocale" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                        <ComboBoxItem Content="Multifocale" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                        <ComboBoxItem Content="Torique" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                    </ComboBox>
+                    <TextBlock x:Name="txtdiamlentille" Text="Entrez le diamètre / courbure de la lentille. S'il existe plusieurs diamètres/courbures pour cette lentille, entrez-les séparés par une virgule. Exemple: 65,70,75,80" TextWrapping="Wrap" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="3" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Grid.ColumnSpan="4" />
+
+                    <TextBlock Text="Diamètre(s) :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="4" />
+                    <dxe:TextEdit x:Name="txtDiamLentille" Text="{Binding Diamètre, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="4" EditValueChanged="txtDiamLentille_EditValueChanged" />
+                    <TextBlock Text="Courbure(s) :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="4" Grid.Column="2" />
+                    <dxe:TextEdit x:Name="txtCourbureLentille" Text="{Binding Courbure, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="4" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="4" EditValueChanged="txtCourbureLentille_EditValueChanged"  />
+
+                    <TextBlock Text="Durée :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="5" />
+                    <ComboBox x:Name="TypeDuréeComboBox" IsEditable="True" SelectedValue="{Binding Durrée, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="120" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Row="5" Grid.Column="1" >
+                        <ComboBoxItem Content="1 jour" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"/>
+                        <ComboBoxItem Content="1 semaine" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                        <ComboBoxItem Content="1 mois" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                        <ComboBoxItem Content="3 mois" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"/>
+                        <ComboBoxItem Content="6 mois" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                        <ComboBoxItem Content="1 an" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                        <ComboBoxItem Content="2 an" FontSize="14" Foreground="#FF2D3F5D" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+
+                    </ComboBox>
+                    <TextBlock Text="Couleur :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="5" Grid.Column="2" />
+                    <dxe:TextEdit x:Name="txtCouleurLentille" Text="{Binding Couleur, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Grid.Row="5" Margin="0"  />
+                    <TextBlock Text="Code LPP :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="6" />
+                    <ComboBox x:Name="TypeLPPComboBox" IsEditable="True" SelectedValue="{Binding CodeLPP, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="120" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Row="6" Grid.Column="1" >
+                        <ComboBoxItem Content="2251545" FontSize="14"/>
+                    </ComboBox>
+                    <TextBlock Text="Matière :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="6" Grid.Column="2" />
+                    <ComboBox x:Name="MatièreComboBox" IsEditable="True" SelectedValue="{Binding Matière, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="120" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Row="6" Grid.Column="3" >
+                        <ComboBoxItem Content="Souple" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                        <ComboBoxItem Content="Dure" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                    </ComboBox>
+
+                    <TextBlock Text="Packaging :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="1" Grid.Column="2" />
+                    <ComboBox x:Name="TypePackagingComboBox" IsEditable="True" SelectedValue="{Binding Packaging, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" SelectedValuePath="Content" DockPanel.Dock="Left" MinWidth="150" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="0" Grid.Row="1" Grid.Column="3" >
+                        <ComboBoxItem Content="Individuelle" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                        <ComboBoxItem Content="3 Lentilles" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                        <ComboBoxItem Content="6 Lentilles" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                        <ComboBoxItem Content="30 Lentilles" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D"/>
+                        <ComboBoxItem Content="90 Lentilles" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="#FF2D3F5D" />
+                    </ComboBox>
+                    <TextBlock Text="Entrez les limites de fabrication de la lentille si elles vous sont connues. Exemple: -8 à +10" TextWrapping="Wrap" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="7" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Grid.ColumnSpan="4" />
+                    <RadioButton x:Name="LimitLentille1"  GroupName="LimitGroup" Content="Limites de fabrications automatiques (selon le tableau des prix)." HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="8" Margin="20,0,0,0" Grid.ColumnSpan="4" Checked="LimitLentille1_Checked" Background="{x:Null}" BorderBrush="#FF2D3F5D" />
+                    <RadioButton x:Name="LimitLentille2"  GroupName="LimitGroup" Content="Limites de:" HorizontalAlignment="Left" Foreground="#FF2D3F5D" FontFamily="Tahoma" Grid.Row="9" Margin="20,0,0,0" Grid.ColumnSpan="4" Checked="LimitLentille2_Checked" Background="{x:Null}" BorderBrush="#FF2D3F5D" />
+                    <dxe:TextEdit x:Name="txtLimLentilleDe" IsEnabled="False" Text="{Binding LimiteFab0, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="9" HorizontalAlignment="Left" MinWidth="70" />
+                    <TextBlock Text="à" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.Row="9" Grid.Column="1" />
+                    <dxe:TextEdit x:Name="txtLimLentilleA" IsEnabled="False" Text="{Binding LimiteFab1, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="1" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Grid.Row="9" HorizontalAlignment="Right" MinWidth="70" />
+                    <dxe:CheckEdit x:Name="ckfiltreUV" IsChecked="{Binding FiltreUV, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" Content="Filtre UV" Grid.Row="9" Foreground="#FFFF008B" FontSize="16" FontWeight="Bold" Grid.Column="2" HorizontalAlignment="Center" BorderBrush="#FF2D3F5D"/>
+                    <TextBlock Text="Prix d'achat :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="8" Grid.Column="3" />
+                    <TextBlock Text="Prix de vente :" FontWeight="Normal" FontFamily="Tahoma" FontSize="14.667" Margin="5,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" Grid.Row="9" Grid.Column="3" />
+                    <dxe:TextEdit x:Name="txtPrixRevient" IsEnabled="True" Text="{Binding PrixRevient, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="8" MinWidth="70" Margin="100,0,0,0" KeyDown="txtStockAlert_KeyDown" />
+                    <dxe:TextEdit x:Name="txtPrixVente" IsEnabled="True" Text="{Binding PrixVente, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" FontFamily="Tahoma" VerticalAlignment="Center" Grid.Column="3" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D"  Grid.Row="9" MinWidth="70" Margin="100,0,0,0" KeyDown="txtStockAlert_KeyDown" />
+
+
+
+                </Grid>
+
+            </TabItem>
+        </TabControl>
+        <Button x:Name="btnCreer" Content="" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="{DynamicResource {x:Static SystemColors.WindowBrushKey}}" FontFamily="Tahoma" FontSize="16" Click="btnCreer_Click" Margin="0" ToolTip="Valider" BorderBrush="{x:Null}" Grid.Row="1" MinWidth="45" MinHeight="45" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="FontSize" Value="{DynamicResource UpperCaseContentFontSize}"/>
+                            <Setter Property="FontFamily" Value="{DynamicResource DefaultFont}"/>
+                            <Setter Property="Background" Value="{DynamicResource GrayBrush10}"/>
+                            <Setter Property="BorderBrush" Value="{DynamicResource TextBoxBorderBrush}"/>
+                            <Setter Property="Foreground" Value="{DynamicResource TextBrush}"/>
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Border x:Name="DisabledVisualElement" Background="{DynamicResource ControlsDisabledBrush}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="DisabledVisualElement" Value="0.7"/>
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/NewOptics;component/Images/acept-verifier-corriger-vert-ok-oui-icone-9668-128.png"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</dx:DXWindow>

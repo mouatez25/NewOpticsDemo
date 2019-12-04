@@ -1,0 +1,122 @@
+﻿<Window xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"  x:Class="NewOptics.Comptoir.DetailVente"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+
+                       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewOptics.Comptoir"
+        mc:Ignorable="d"
+        Title="DetailVente" Height="250" Width="320"  Opacity="1"    WindowStyle="SingleBorderWindow"  Icon="/NewOptics;component/Dent6.ico" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" ResizeMode="NoResize"  WindowStartupLocation="CenterScreen"  BorderThickness="0"    FontSize="16" FontFamily="Times New Roman" AllowDrop="True" KeyDown="DXWindow_KeyDown"   >
+    <Grid x:Name="gridvente">
+        
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50px" />
+                <RowDefinition  />
+            <RowDefinition  />
+            <RowDefinition  />
+            <RowDefinition   />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/> 
+            <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+        <Label x:Name="f" Content="Modification Vente" BorderThickness="1" FontSize="16" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" FontWeight="Bold" Background="{x:Null}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Margin="5,0,0,0" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="3" />
+        <TextBlock Text="Désignation Produit :" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14" Margin="10,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Grid.ColumnSpan="2" />
+        <TextBlock x:Name="txtdesign" Text="{Binding design, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}"   FontWeight="Bold"  FontFamily="Tahoma" FontSize="16" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2" Foreground="#FF2D3F5D" Grid.Column="1" />
+        <TextBlock Text="Quantité :" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="2" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+        <TextBox x:Name="txtQuantité"  Text="{Binding quantite, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true,StringFormat={}{0:0.00}}" FontFamily="Tahoma" Grid.Row="2" VerticalAlignment="Center" Grid.Column="1" Width="180" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" KeyDown="txtQuantité_KeyDown"  Grid.ColumnSpan="2" Margin="0,0,0,0" TextChanged="txtQuantité_TextChanged"  />
+        <TextBlock Text="Prix :" FontWeight="Normal"  FontFamily="Tahoma" FontSize="14" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="3" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" />
+        <TextBox x:Name="txtPrix" IsEnabled="False" Text="{Binding privente, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true,StringFormat={}{0:0.00}}" FontFamily="Tahoma" Grid.Row="3" VerticalAlignment="Center" Grid.Column="1" Width="180" Foreground="#FF2D3F5D" FontSize="14" FontWeight="Bold" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="#FF2D3F5D" Grid.ColumnSpan="2" Margin="0,0,0,0"  KeyDown="txtPrix_KeyDown" TextChanged="txtPrix_TextChanged" />
+        <Button x:Name="CONFIRMERVENTE" Grid.ColumnSpan="2" Content="F12 = CONFIRMER" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Background="#FF88FF98" BorderBrush="{x:Null}" Click="CONFIRMERVENTE_Click" Grid.Row="4" Margin="10,5,50,5" FontSize="14" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+        </Button>
+        <Button x:Name="annulerVENTE" Grid.ColumnSpan="2" Content="Échap = ANNULER" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Background="#FFFF9388" Grid.Column="1" BorderBrush="{x:Null}" Click="annulerVENTE_Click" Grid.Row="4" Margin="60,5,10,5" FontSize="14" >
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Style.BasedOn>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                            <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                            <Setter Property="MinHeight" Value="25"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+
+                            <Setter Property="Padding" Value="5,6"/>
+                            <Setter Property="BorderThickness" Value="1"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Grid>
+                                            <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                            <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                            <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Grid>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsMouseOver" Value="True">
+
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+                                            <Trigger Property="IsPressed" Value="True">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                            </Trigger>
+
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </Style.BasedOn>
+                </Style>
+            </Button.Style>
+        </Button>
+
+    </Grid>
+</Window>

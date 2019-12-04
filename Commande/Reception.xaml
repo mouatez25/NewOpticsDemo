@@ -1,0 +1,136 @@
+﻿<Window x:Class="NewOptics.Commande.Reception"
+       xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+         
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                  xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                  xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+  
+        xmlns:local="clr-namespace:NewOptics.Commande"
+       
+        Title="Réception des commandes" Height="300" Width="500" WindowStyle="SingleBorderWindow"  Icon="/NewOptics;component/Dent6.ico" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" 
+             ResizeMode="NoResize"  WindowStartupLocation="CenterOwner"  BorderThickness="0"     FontSize="16" FontFamily="Times New Roman" AllowDrop="True"  Closed="DXWindow_Closed" Loaded="DXWindow_Loaded">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"  />
+            <RowDefinition Height="1*"  />
+            <RowDefinition Height="1*"  />
+            <RowDefinition  Height="0.6*"/>
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="vv" Text="Date de réception :" IsEnabled="False" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="22" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" Margin="0" Grid.ColumnSpan="2" FontWeight="Bold" />
+
+        <DatePicker x:Name="datevente" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Width="130" Grid.ColumnSpan="2" SelectedDateChanged="datevente_SelectedDateChanged" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" />
+        <TextBlock HorizontalAlignment="Left" Text="Fournisseur" VerticalAlignment="Center" Margin="30,0,0,0" Grid.Row="1" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" FontFamily="Tahoma" FontSize="18"/>
+        <TextBox x:Name="txtFournisseur"  VerticalAlignment="Center" IsEnabled="False" Grid.Row="1" Margin="10,0" Grid.Column="1" FontFamily="Tahoma" FontSize="16" Grid.ColumnSpan="2" Foreground="#FF2D3F5D" FontWeight="Bold" SelectionBrush="#FF2D3F5D" BorderBrush="#FF2D3F5D"  />
+
+
+
+        <TextBlock x:Name="txttotalcaluc" Text="N° facture" VerticalAlignment="Center" Grid.Row="2" FontFamily="Tahoma" FontSize="18" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Margin="30,0,0,0" HorizontalAlignment="Left" />
+
+        <TextBox x:Name="txtremise" VerticalAlignment="Center" Grid.Row="2" Margin="10,0" Grid.Column="1" TextChanged="txtremise_TextChanged" BorderBrush="#FF2D3F5D" Foreground="#FF2D3F5D" SelectionBrush="#FF2D3F5D"  />
+        <Grid Grid.ColumnSpan="4" Background="#FF451571" Grid.Row="3" Margin="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+                <ColumnDefinition />
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="CONFIRMERVENTE" Grid.ColumnSpan="2" Content="CONFIRMER RÉCEPTION" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Background="#FF88FF98" BorderBrush="{x:Null}" Click="CONFIRMERVENTE_Click" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+            </Button>
+            <Button x:Name="annulerVENTE" Grid.ColumnSpan="2" Content="ANNULER RÉCEPTION" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Background="#FFFF9388" Grid.Column="2" BorderBrush="{x:Null}" Click="annulerVENTE_Click" >
+                <Button.Style>
+                    <Style TargetType="{x:Type Button}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                <Setter Property="MinHeight" Value="25"/>
+                                <Setter Property="FontWeight" Value="Bold"/>
+
+                                <Setter Property="Padding" Value="5,6"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Grid>
+                                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                            </Grid>
+                                            <ControlTemplate.Triggers>
+                                                <Trigger Property="IsMouseOver" Value="True">
+
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+                                                <Trigger Property="IsPressed" Value="True">
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                </Trigger>
+
+                                                <Trigger Property="IsEnabled" Value="False">
+                                                    <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                </Trigger>
+                                            </ControlTemplate.Triggers>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Button.Style>
+            </Button>
+        </Grid>
+
+    </Grid>
+</Window>

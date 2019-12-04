@@ -1,0 +1,20 @@
+﻿Denta6
+
+
+winexe
+C#
+.cs
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\obj\Debug\
+GestionClinique
+none
+false
+DEBUG;TRACE
+D:\wpf\sauv\avant optics\Diabesoft\GestionClinique\App.xaml
+114690485026
+1-605727278
+1381418266321
+69-1694699298
+Aceuill.xaml;Administrateur\AjouterActe.xaml;Administrateur\AjouterCatalogue.xaml;Administrateur\AjouterMedecin.xaml;Administrateur\AjouterMotifDepense.xaml;Administrateur\AjouterMotifVisite.xaml;Administrateur\AjouterSession.xaml;Administrateur\AjouterSpécialité.xaml;Administrateur\AjouterTypeCas.xaml;Administrateur\ColorPalete.xaml;Administrateur\Entête.xaml;Administrateur\Home.xaml;Administrateur\ImpressionListeTypeCas.xaml;Administrateur\ImpressionMotif.xaml;Administrateur\ImpressionMotifDepense.xaml;Administrateur\ImpressionOneMedecin.xaml;Administrateur\ImpressionOneSession.xaml;Administrateur\ImpressionSession.xaml;Administrateur\ImpressionSpécialité.xaml;Administrateur\ImpresssionMedecin.xaml;Administrateur\ListeActe.xaml;Administrateur\ListeDesCatalogue.xaml;Administrateur\ListeMedecin.xaml;Administrateur\ListeMotifVisite.xaml;Administrateur\ListeSession.xaml;Administrateur\ListeSpécialitéMedecin.xaml;Administrateur\ListeTypeCas.xaml;Administrateur\ListMotifDepense.xaml;Administrateur\MainAdministrateur.xaml;Administrateur\ParamétreColor.xaml;Authentification.xaml;Caisse\AjouterTransaction.xaml;Caisse\Caisse.xaml;Caisse\ImpressionMouvement.xaml;Caisse\ImpressionRecu.xaml;Chat.xaml;ColorPicker\ColorDialog.xaml;ColorPicker\ColorPicker.xaml;DocumentImportant\LivreViewer.xaml;DXWindowMain.xaml;Editeur.xaml;EtatEtRapport\CasAtraiterPatient.xaml;EtatEtRapport\CertificatRapport.xaml;EtatEtRapport\ImpressionGlobal.xaml;EtatEtRapport\ImpressionTableauDeBord.xaml;EtatEtRapport\ImpressionVisite.xaml;EtatEtRapport\ReglementPatient.xaml;EtatEtRapport\TableauDeBord.xaml;FeuilleCalcule.xaml;FileDattente\Arrivée.xaml;FileDattente\EcranFilleAttente.xaml;FileDattente\ImpressionSalleAttente.xaml;FileDattente\SalleDattente.xaml;Home.xaml;ListePatientHome.xaml;Patient\AjouterAuto.xaml;Patient\Aliment.xaml;Patient\CalculeCalorique.xaml;Patient\Dicom.xaml;Patient\DossierPatient.xaml;Patient\FamilleAliment.xaml;Patient\FichePatient.xaml;Patient\HistoriqueConstante.xaml;Patient\ImpressionAuto.xaml;Patient\ImpressionBesoinCalorique.xaml;Patient\ImpressionCasTraitement.xaml;Patient\ImpressionDiagnostic.xaml;Patient\ImpressionListeAlimentByfamille.xaml;Patient\ImpressionListeAliments.xaml;Patient\ImpressionListeConstante.xaml;Patient\ImpressionOneCas.xaml;Patient\ImpressionOneConstante.xaml;Patient\ImpressionOneDicom.xaml;Patient\ImpressionOneRepas.xaml;Patient\ImpressionOneVisite.xaml;Patient\ImpressionOrdonnance.xaml;Patient\InsertAliments.xaml;Patient\InsertFamille.xaml;Patient\ListePatient.xaml;Patient\NewPatient.xaml;Patient\ReportListePatient.xaml;Patient\ReportPatient.xaml;Patient\VersementPatient.xaml;RendezVous\AutoComplete.xaml;RendezVous\ImpressionListeRendezVous.xaml;RendezVous\ImpressionTicket.xaml;RendezVous\ListeRendezVous.xaml;RendezVous\PrendreRendezVous.xaml;RendezVous\RendezVous.xaml;RendezVous\Styles\AutoComplete.Styles.xaml;RendezVous\Styles\ComboBox.Styles.xaml;RichTextEditorSample.xaml;RTFEditor\RTFBox.xaml;Stock\AchatEtVenteProduit.xaml;Stock\AjouterAms.xaml;Stock\AjouterDci.xaml;Stock\AjouterFactureAchat.xaml;Stock\AjouterFournisseur.xaml;Stock\AjouterProduitOrdonnance.xaml;Stock\ImpressionAchat.xaml;Stock\ImpressionAMS.xaml;Stock\ImpressionDestockage.xaml;Stock\ImpressionFactureAchat.xaml;Stock\ImpressionListeDesVersements.xaml;Stock\ImpressionListFourn.xaml;Stock\ImpressionMesAchats.xaml;Stock\ImpressionProduit.xaml;Stock\ImpressionStock.xaml;Stock\ListeDeProduitPourOronnance.xaml;Stock\ListeDesDci.xaml;Stock\ListeDesVersements.xaml;Stock\ListeFournisseur.xaml;Stock\MesAchat.xaml;Stock\MonStock.xaml;
+
+True
+

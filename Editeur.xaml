@@ -1,0 +1,44 @@
+﻿<dx:DXWindow
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      dx:ThemeManager.ThemeName="LightGray"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewOptics"
+       xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" xmlns:dxre="http://schemas.devexpress.com/winfx/2008/xaml/richedit" xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon" xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" x:Class="NewOptics.Editeur"
+        mc:Ignorable="d"
+        Title="Editeur de texte" WindowStyle="ThreeDBorderWindow"  Icon="/NewOptics;component/Dent6.ico"   ResizeMode="CanResize"   WindowStartupLocation="CenterScreen"   BorderThickness="0" Padding="0,0,0,0" Background="{x:Null}"    >
+     <Grid>
+
+        <dxb:BarManager x:Name="barManager1" ToolbarGlyphSize="Small" Margin="5">
+            <dxb:BarManager.Resources>
+                <dxre:RichEditUICommand x:Key="commands"/>
+            </dxb:BarManager.Resources>
+            <DockPanel>
+                <dxr:RibbonStatusBarControl DockPanel.Dock="Bottom" HorizontalAlignment="Stretch" VerticalAlignment="Bottom">
+                    <dxr:RibbonStatusBarControl.RightItems>
+                        <dxb:BarEditItem x:Name="biZoomComboBox" CategoryName="Format" Command="{Binding ViewZoomPercent, Mode=OneTime, Source={StaticResource commands}}" EditWidth="70">
+                            <dxb:BarEditItem.EditSettings>
+                                <dxre:ZoomComboBoxEditSettings/>
+                            </dxb:BarEditItem.EditSettings>
+                        </dxb:BarEditItem>
+                        <dxb:BarEditItem x:Name="biZoomTrackBar" Content="" CategoryName="Format" Command="{Binding ViewZoom, Mode=OneTime, Source={StaticResource commands}}" EditWidth="150">
+                            <dxb:BarEditItem.EditSettings>
+                                <dxe:TrackBarEditSettings LargeStep="0.1" Maximum="5.0" Minimum="0.1" SmallStep="0.1">
+                                    <dxe:TrackBarEditSettings.StyleSettings>
+                                        <dxe:TrackBarZoomStyleSettings/>
+                                    </dxe:TrackBarEditSettings.StyleSettings>
+                                </dxe:TrackBarEditSettings>
+                            </dxb:BarEditItem.EditSettings>
+                        </dxb:BarEditItem>
+                    </dxr:RibbonStatusBarControl.RightItems>
+                </dxr:RibbonStatusBarControl>
+                <dxre:RichEditControl x:Name="richEditControl1" BarManager="{Binding ElementName=barManager1, Mode=OneTime}" CommandBarStyle="Ribbon" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch"/>
+            </DockPanel>
+        </dxb:BarManager>
+
+    </Grid>
+ 
+</dx:DXWindow>

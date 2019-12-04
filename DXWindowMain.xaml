@@ -1,0 +1,227 @@
+﻿<Window xmlns:dxn="http://schemas.devexpress.com/winfx/2008/xaml/navbar"  xmlns:dxca="http://schemas.devexpress.com/winfx/2008/xaml/carousel"  
+             xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui"  
+             xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+             xmlns:dxr="http://schemas.devexpress.com/winfx/2008/xaml/ribbon"
+             xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol" 
+    x:Class="NewOptics.DXWindowMain"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+ 
+    Title="NewOptics LOGICIEL GESTION DE COMMERICALE" Height="700" Width="1120" ResizeMode="CanResize"  Background="{x:Null}"  WindowStyle="ThreeDBorderWindow"  Icon="Dent6.ico" WindowStartupLocation="CenterScreen"  BorderThickness="0"  BorderBrush="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" ShowInTaskbar="True" Closed="MetroWindow_Closed"  >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition  />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <UserControl x:Name="BACK" Background="LightGray" Visibility="Collapsed" Opacity="0.6" Grid.RowSpan="2" Panel.ZIndex="99"/>
+      
+        <DockPanel Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Grid.ColumnSpan="2">
+
+            <Menu x:Name="MenuPrincipale" IsMainMenu="True" Grid.ColumnSpan="2" Grid.Column="1" HorizontalAlignment="Right" FontFamily="Tahoma" FontSize="16" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                <MenuItem x:Name="MenuStock" Header="_Stock" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <MenuItem Header="_Mon Stock" FontFamily="Tahoma" Click="MenuItem_Click_3" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}">
+
+                    </MenuItem>
+
+
+                    <Separator Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" />
+                    <MenuItem Header="_Nomenclature produit" FontFamily="Tahoma" Click="MenuItem_Click_4" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"/>
+                    <MenuItem Header="_Liste des nomenclatures produits" FontFamily="Tahoma" Click="MenuItem_Click_17" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <MenuItem Header="_Liste Famille Produit" FontFamily="Tahoma" Click="MenuItem_Click_18" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <MenuItem Header="_Liste Marque Produit" FontFamily="Tahoma" Click="MenuItem_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <Separator Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" />
+
+
+                </MenuItem>
+
+                <MenuItem x:Name="Mendudcaisse" Header="_Statistique" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+                    <MenuItem x:Name="AchatVVente" Header="_Achats et ventes d'un produit" FontFamily="Tahoma" Click="AchatVVente_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <MenuItem x:Name="dffte" Header="_Achats des produits" FontFamily="Tahoma" Click="dffte_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <MenuItem x:Name="dfftes" Header="_Péremption et stock alerte" FontFamily="Tahoma" Click="dfftes_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                    <Separator Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                    <MenuItem x:Name="RéglementPatient" Header="Etat des créances (Clients)"  FontFamily="Tahoma" Click="RéglementPatient_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"  />
+
+                    <Separator Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+                    <MenuItem x:Name="JournalVentes" Header="Journal des ventes / déclarations"  FontFamily="Tahoma" Click="JournalVentes_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"  />
+                    <MenuItem x:Name="etat104" Header="Etat 104"  FontFamily="Tahoma" Click="etat104_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"  />
+
+                    <Separator Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" />
+
+                    <MenuItem x:Name="dfs" Header="_Tableau de bord général (C.A-Consomm-  Marges)" FontFamily="Tahoma" Click="dfs_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+                    </MenuItem>
+                </MenuItem>
+                <MenuItem x:Name="Menucaisse" Header="_Vente" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+                    <MenuItem x:Name="venteco" Header="_Vente comptoir" FontFamily="Tahoma"  Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Click="venteco_Click" >
+
+                    </MenuItem>
+
+                </MenuItem>
+
+                <MenuItem x:Name="planning" Header="_Planning" Visibility="Collapsed" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+                    <MenuItem x:Name="ListRendez" Header="_Ouvrir planning" FontFamily="Tahoma"  Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Click="ListRendez_Click" >
+
+                    </MenuItem>
+
+                </MenuItem>
+
+                <MenuItem Header="_Outil" Visibility="Collapsed" FontFamily="Tahoma" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+
+
+                     <MenuItem x:Name="Rapport3" Header="Editeur de text"  FontFamily="Tahoma" Click="Rapport3_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" >
+
+
+                    </MenuItem>
+                    <MenuItem x:Name="Rapport4" Header="Feuille de calcul"  FontFamily="Tahoma" Click="Rapport4_Click" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}"  >
+
+
+                    </MenuItem>
+                  
+                </MenuItem>
+
+
+
+            </Menu>
+
+            <DockPanel HorizontalAlignment="Right" Margin="0,0,50,0">
+                    <Label Content="Bonjour :" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0,0,15,0" FontFamily="Tahoma" FontSize="18" />
+                <Label x:Name="SESSSIONNAME" Content="Dr kitouni" HorizontalAlignment="Right" Margin="0,0,0,0" VerticalAlignment="Center" FontFamily="Tahoma" FontSize="18" Foreground="#FB2D3F5D" FontWeight="Bold" />
+                <Button x:Name="btnhome" Width="30" ToolTip="Page d'acceuil" Height="30" BorderBrush="{x:Null}" Margin="30,0,0,0" Click="btnhome_Click" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/home.png"/>
+                    </Button.Background>
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Style.BasedOn>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                    <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                    <Setter Property="MinHeight" Value="25"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+
+                                    <Setter Property="Padding" Value="5,6"/>
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Grid>
+                                                    <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                    <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                    <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsEnabled" Value="False">
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Style.BasedOn>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+            </DockPanel>
+        </DockPanel>
+        <ListBox   x:Name="chatListBoxNames" Visibility="Collapsed"  HorizontalAlignment="Right" Margin="0,62,10,84" Width="139"   BorderThickness="1" BorderBrush="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" FontFamily="Tahoma" FontWeight="Bold" FontSize="14" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" Foreground="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}"  />
+        <StackPanel Name="navBarControl1"  Grid.Row="1" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" >
+
+
+
+            <Expander Header="Modules" IsExpanded="True"  Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" >
+                <StackPanel >
+                    <Button Click="NavBarItem_Click" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Clients
+                    </Button>
+                    <Button Click="NavBarItem_Click_1" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Fournisseurs
+                        </Button>
+                    <Button Click="NavBarItem_Click_11" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Articles</Button>
+
+                    <Button Click="NavBarItem_Click_7" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Ventes</Button>
+                    <Button Click="NavBarItem_Click_8" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Achats</Button>
+                    <Button Click="NavBarItem_Click_12" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Commandes</Button>
+
+                    <Button Click="NavBarItem_Click_3" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Lower">Banque/Caisse</Button>
+                </StackPanel>
+            </Expander>
+            <Expander Header="Atelier" IsExpanded="True"  Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+                <StackPanel >
+
+                    <Button Click="NavBarItem_Click_14" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Montures</Button>
+                    <Button Click="NavBarItem_Click_15" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal" >Lentilles
+                    </Button>
+
+                </StackPanel>
+            </Expander>
+            <Expander Header="Catalogue" IsExpanded="True"  Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+                <StackPanel >
+
+                    <Button Click="NavBarItem_Click_9" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Verres
+                    </Button>
+                    <Button Click="NavBarItem_Click_13" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal" >Suppléments
+                    </Button>
+                    <Button Click="NavBarItem_Click_10" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Lentilles</Button>
+           
+                </StackPanel>
+            </Expander>
+            <Expander Header="Paramètres" IsExpanded="False" IsEnabled="True"  Background="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}" BorderBrush="{DynamicResource {x:Static SystemColors.InactiveCaptionBrushKey}}">
+            <StackPanel >
+
+                    <Button Click="NavBarItem_Click_4" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Entête
+                    </Button>
+                    <Button Click="NavBarItem_Click_5" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Utilisateurs</Button>
+                    <Button  Click="NavBarItem_Click_6" Background="{x:Null}" BorderBrush="{x:Null}" FontFamily="Tahoma" Controls:ControlsHelper.ContentCharacterCasing="Normal">Compteurs
+                    </Button>
+
+                </StackPanel>
+            </Expander>
+        </StackPanel>
+
+
+        <Grid x:Name="gridhome" ShowGridLines="False" Visibility="Visible" Grid.Row="1" Grid.Column="1">
+
+            <Frame x:Name="FrameInterieur" 
+ 
+  JournalOwnership="OwnsJournal" 
+  NavigationUIVisibility="Hidden" Grid.Column="0" Grid.RowSpan="1" />
+
+        </Grid>
+    </Grid>
+
+</Window>

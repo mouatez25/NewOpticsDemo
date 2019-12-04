@@ -1,0 +1,47 @@
+﻿<Page xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors" 
+       xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" 
+             xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+             x:Class="NewOptics.Aceuill"
+               xmlns:gif="http://wpfanimatedgif.codeplex.com"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+  xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+          
+   
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+     
+      mc:Ignorable="d" >
+
+    <Grid OpacityMask="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition  />
+            <RowDefinition Height="100" />
+            <RowDefinition  Height="10" />
+        </Grid.RowDefinitions>
+        <DockPanel x:Name="appBar"  Grid.Row="1" VerticalAlignment="Stretch" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}">
+            <Label Content="Monture:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" FontSize="16" Margin="10,0,0,30" Background="{x:Null}" FontFamily="Tahoma"   />
+            <TextBox x:Name="txtCommande" Text="0000000000000" FontFamily="/NewOptics;component/Font/#C39HrP24DhTt"   HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" FontSize="30" Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Margin="10,0,0,15" FontWeight="Bold" GotFocus="txtCommande_GotFocus" LostFocus="txtCommande_LostFocus" Height="40" Background="{x:Null}" KeyDown="txtCommande_KeyDown"  />
+
+            <Label Content="Lentille:" HorizontalAlignment="Left" VerticalAlignment="Center" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" FontSize="16" Margin="10,0,0,30" FontFamily="Tahoma" Background="{x:Null}"   />
+            <TextBox x:Name="TxtLentille" Text="0000000000000"  FontFamily="/NewOptics;component/Font/#C39HrP24DhTt"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="150" FontSize="30"  Foreground="#FF2D3F5D" BorderBrush="#FF2D3F5D" Height="40" Margin="10,0,0,15" FontWeight="Bold" GotFocus="TxtLentille_GotFocus" LostFocus="TxtLentille_LostFocus" TextChanged="TxtLentille_TextChanged" Background="{x:Null}" KeyDown="TxtLentille_KeyDown"  />
+
+            <Image x:Name="TxtClient" Source="Images/medicalogitech.png"  HorizontalAlignment="Left" VerticalAlignment="Center" Width="170"  Height="150" Margin="10,0,0,0"  />
+
+
+
+
+        </DockPanel>
+
+        <Grid x:Name="gridPub" Visibility="Visible" Background="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="100" />
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Image Source="Images/35629070_448012852293390_5513903070716624896_n.jpg" Grid.RowSpan="2" />
+        </Grid>
+    </Grid>
+</Page>

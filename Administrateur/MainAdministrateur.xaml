@@ -1,0 +1,419 @@
+﻿<dx:DXWindow x:Class="GestionClinique.Administrateur.MainAdministrateur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+     dx:ThemeManager.ThemeName="Office2010Black"
+             
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionClinique.Administrateur"
+                         xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        mc:Ignorable="d"
+        Title="www.medicalogitech.com"  Height="650" Width="850" ResizeMode="CanResizeWithGrip" WindowStartupLocation="CenterScreen" Icon="/Diabetosoft;component/Images/Dent6.ico" Closed="MetroWindow_Closed"   Closing="MetroWindow_Closing">
+
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Diabetosoft;component/Images/logo-v3.png" Opacity="0.2" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Grid x:Name="gridAuthentification" ShowGridLines="False"  >
+            <Grid.Background>
+                <ImageBrush ImageSource="/Diabetosoft;component/Images/logo-v3.png" Opacity="0.2" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <Label x:Name="loginLabelUName" Height="25" HorizontalAlignment="Left" Margin="179,200,0,0" VerticalAlignment="Top" Width="90" FontFamily="Times New Roman" FontWeight="Bold" FontSize="16">Utilisateur:
+            </Label>
+
+            <PasswordBox x:Name="txtMotDePasse" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Height="23" Margin="277,200,313,0" VerticalAlignment="Top" KeyUp="txtMotDePasse_KeyUp"/>
+            <Label x:Name="loginLabelIP"  HorizontalAlignment="Left" Margin="179,232,0,255"  Width="90" FontFamily="Times New Roman" FontSize="16" FontWeight="Bold">Adresse IP:</Label>
+            <TextBox x:Name="loginTxtBoxIP" Margin="277,232,313,0" Text="192.168.1.112" Height="23" VerticalAlignment="Top" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" />
+            <dx:SimpleButton x:Name="Confirmer" Margin="277,0,313,216" Click="buttonConnect_Click"  Height="31" VerticalAlignment="Bottom" Background="{DynamicResource {x:Static SystemColors.MenuHighlightBrushKey}}" FontSize="16" FontFamily="Century Schoolbook" Foreground="White">Connect
+            </dx:SimpleButton>
+            <Label x:Name="textBlock" Height="44" VerticalAlignment="Bottom" FontFamily="Times New Roman" FontSize="22" Foreground="#FF0068FF" HorizontalAlignment="Left" Margin="0,0,40,71" Background="{x:Null}" FontWeight="Bold" FontStyle="Italic">Déconnecté</Label>
+
+            <Label x:Name="textBlockss" Height="57" FontFamily="Century Schoolbook" FontSize="29.333" Foreground="{DynamicResource {x:Static SystemColors.InfoBrushKey}}" Margin="16,16,0,0"  VerticalAlignment="Top" HorizontalAlignment="Left" Width="450" Background="{x:Null}" Content="Medicus.Administrateur" FontWeight="Bold" FontStyle="Italic"/>
+            <Polyline x:Name="loginPolyLine"  StrokeThickness="2" Points="140,90 140,300 700,300 700,90 140,90" Margin="-9,42,116,165" />
+        </Grid>
+
+
+
+        <Grid x:Name="gridhome" ShowGridLines="False" Visibility="Collapsed">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition  />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <StackPanel Orientation="Vertical" Background="{DynamicResource {x:Static SystemColors.MenuBarBrushKey}}" Grid.RowSpan="2" Margin="0">
+
+                <Button x:Name="btnMdecin"  Height="100" Width="100" Margin="0,50,0,0" Cursor="Hand" Foreground="#FF59083C" Click="Button_Click" BorderThickness="2" MouseLeave="btnMdecin_MouseLeave" MouseMove="btnMdecin_MouseMove" IsKeyboardFocusWithinChanged="btnMdecin_IsKeyboardFocusWithinChanged" >
+                    <Button.Background>
+                        <ImageBrush ImageSource="/Diabetosoft;component/Images/WebHome_Medical_png.png" TileMode="FlipXY"/>
+                    </Button.Background>
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button x:Name="btnuser"  Height="100" Width="100" Margin="0,20,0,0" Cursor="Hand" Foreground="#FF59083C" Click="Button_Click_1" BorderThickness="2" ClipToBounds="True" SnapsToDevicePixels="True" IsKeyboardFocusWithinChanged="btnuser_IsKeyboardFocusWithinChanged" MouseMove="btnuser_MouseMove" MouseLeave="btnuser_MouseLeave">
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/forum-groupe-utilisateurs-icone-4597-128.png" TileMode="FlipXY"/>
+                    </Button.Background>
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                  
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <Button x:Name="BtnEntête"  Height="100" Width="100" Margin="0,20,0,0" Cursor="Hand" Foreground="#FF59083C" BorderThickness="2" ClipToBounds="True" SnapsToDevicePixels="True" Click="BtnEntête_Click" IsKeyboardFocusWithinChanged="BtnEntête_IsKeyboardFocusWithinChanged" MouseLeave="BtnEntête_MouseLeave" MouseMove="BtnEntête_MouseMove">
+                    <Button.BorderBrush>
+                        <ImageBrush/>
+                    </Button.BorderBrush>
+                    <Button.Background>
+                        <ImageBrush ImageSource="Images/edit-find-vieux-remplacez-icone-7990-128.png" TileMode="FlipXY"/>
+                    </Button.Background>
+                    <Button.Template>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Grid>
+                                <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Border x:Name="DisabledVisualElement" Background="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" IsHitTestVisible="False" Opacity="0" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Grid>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+                                </Trigger>
+                                <Trigger Property="IsKeyboardFocusWithin" Value="True">
+                                    <Trigger.EnterActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.400" To="3" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.300" To="125" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.EnterActions>
+                                    <Trigger.ExitActions>
+                                        <BeginStoryboard>
+                                            <Storyboard>
+                                                <ThicknessAnimation Duration="0:0:0.250" To="0" Storyboard.TargetProperty="BorderThickness" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Height" />
+                                                <DoubleAnimation Duration="0:0:0.150" To="100" Storyboard.TargetProperty="Width" />
+                                            </Storyboard>
+                                        </BeginStoryboard>
+                                    </Trigger.ExitActions>
+
+                                </Trigger>
+
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                </Button>
+             
+
+            </StackPanel>
+            <Menu IsMainMenu="True" Grid.ColumnSpan="2" Background="{DynamicResource {x:Static SystemColors.MenuBarBrushKey}}" Grid.Column="1">
+              
+                <MenuItem Header="_Tables">
+                    <MenuItem.Background>
+                        <ImageBrush/>
+                    </MenuItem.Background>
+                    <MenuItem x:Name="spécialitemenu" Header="_Spécialité Medecin" FontFamily="Times New Roman" FontSize="16" Click="spécialitemenu_Click">
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="Motifemenu" Header="_Motif Visite" FontFamily="Times New Roman" FontSize="16" Click="Motifemenu_Click" >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+                    <MenuItem x:Name="TyepCasemenu" Visibility="Collapsed" Header="_Types de Cas" FontFamily="Times New Roman" FontSize="16" Click="TyepCasemenu_Click"  >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="MotifDepensemenu" Header="_Motif de Depense" FontFamily="Times New Roman" FontSize="16" Click="MotifDepensemenu_Click"   >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+                
+                    <MenuItem x:Name="Catalogue" Visibility="Visible"  Header="_Liste des Catalogue" FontFamily="Times New Roman" FontSize="16" Click="Catalogue_Click"   >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="Acte" Header="_Liste des Actes" FontFamily="Times New Roman" FontSize="16" Click="Acte_Click"   >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <Separator />
+                    <MenuItem x:Name="quses" Header="_Lexique alimentaire pour les Diabétiques" FontFamily="Times New Roman" FontSize="16" Click="quses_Click"   >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/edit_property.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </MenuItem>
+               
+                <MenuItem Header="_Outils" >
+                    <MenuItem.Background>
+                        <ImageBrush/>
+                    </MenuItem.Background>
+                    <MenuItem x:Name="ColorSalleAttente" Header="_Couleur" FontFamily="Times New Roman" FontSize="16" Click="ColorSalleAttente_Click">
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/PalleteColor.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem x:Name="ParamOrdo" Header="_Paramétre Ordonnance" FontFamily="Times New Roman" FontSize="16" Click="ParamOrdo_Click" >
+                        <MenuItem.Background>
+                            <ImageBrush/>
+                        </MenuItem.Background>
+
+                        <MenuItem.Icon>
+                            <Image Source="Images/PalleteColor.png"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+                </MenuItem>
+                <MenuItem Header="_Aide" >
+                    <MenuItem.Background>
+                        <ImageBrush/>
+                    </MenuItem.Background>
+                </MenuItem>
+            </Menu>
+
+
+
+            <Frame x:Name="FrameInterieur" 
+  Source="Home.xaml" 
+  JournalOwnership="OwnsJournal" 
+  NavigationUIVisibility="Hidden" Grid.Row="1" Grid.Column="1" />
+
+
+
+        </Grid>
+
+    </Grid>
+</dx:DXWindow>

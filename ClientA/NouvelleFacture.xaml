@@ -1,0 +1,102 @@
+﻿<dx:DXWindow x:Class="NewOptics.ClientA.NouvelleFacture"
+         xmlns:dxco="http://schemas.devexpress.com/winfx/2008/xaml/controls" 
+             xmlns:dxc="http://schemas.devexpress.com/winfx/2008/xaml/core"
+    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"  
+    xmlns:dxpg="http://schemas.devexpress.com/winfx/2008/xaml/pivotgrid" 
+    xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"  
+               dx:ThemeManager.ThemeName="VS2010"
+    xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+   xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:wf="clr-namespace:System.Windows.Forms;assembly=System.Windows.Forms"
+  xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit"
+        xmlns:rtf="clr-namespace:GestionClinique.RTFEditor"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+                         xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+               xmlns:System="clr-namespace:System;assembly=mscorlib"
+                 xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" 
+        xmlns:local="clr-namespace:NewOptics.ClientA"
+        mc:Ignorable="d"
+        Title="NouvelleFacture" ResizeMode="CanResize" Width="350"  Background="#FB2D3F5D" ShowIcon="True" ShowTitle="True"  WindowStyle="ThreeDBorderWindow"  Icon="/NewOptics;component/Dent6.ico" WindowStartupLocation="CenterScreen"  BorderThickness="0"  BorderBrush="#FFA020F0" ShowInTaskbar="True" Height="250"  >
+    <Grid>
+        <Border x:Name="windowBorderDatdsfdsaDSFDSgridVisiteApayedsdsr" BorderThickness="3" CornerRadius="20" Grid.Column="1" Background="#FF003366" Grid.RowSpan="4" BorderBrush="#FFA020F0" Margin="10,0">
+
+            <Grid x:Name="GridRecouf" Grid.RowSpan="4" Grid.Column="1" Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="75*" />
+                    <RowDefinition Height="75*" />
+                    <RowDefinition Height="75*"  />
+                    <RowDefinition Height="75*"  />
+
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    
+
+                </Grid.ColumnDefinitions>
+
+
+                <Label x:Name="f" Content="Nouveau document" BorderThickness="1" FontSize="20" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlLightLightBrushKey}}" FontWeight="Bold" Background="{x:Null}" BorderBrush="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" Margin="0" Height="50" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.ColumnSpan="2" TextOptions.TextFormattingMode="Display" HorizontalAlignment="Center" />
+
+                <RadioButton x:Name="chFacture" GroupName="UserType" Grid.Row="1"  HorizontalAlignment="Left" FontFamily="Tahoma" FontSize="14" FontWeight="Bold" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}"  Content="Facture"  />
+                <RadioButton x:Name="chFactureAvoir" GroupName="UserType"  Grid.Row="1" Grid.Column="1" HorizontalAlignment="Left" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Margin="0" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Content="Facture d'avoir" />
+                <RadioButton x:Name="chBonLivraison" GroupName="UserType"  Grid.Row="2" HorizontalAlignment="Left" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Margin="0" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Content="Bon Livraison" VerticalAlignment="Top" />
+                <RadioButton x:Name="chBonLivraisonAvoir" GroupName="UserType"  Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Margin="0" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Content="Bon d'avoir" VerticalAlignment="Top" />
+                <RadioButton x:Name="chProforma" GroupName="UserType"  Grid.Row="2" HorizontalAlignment="Left" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Margin="0" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Content="Proforma" VerticalAlignment="Bottom" />
+                <RadioButton x:Name="chFactureProvisoir" GroupName="UserType"  Grid.Row="2" Grid.Column="1" HorizontalAlignment="Left" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Margin="0" Foreground="#FFFFDF72" Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" Content="Facture provisoir" VerticalAlignment="Bottom" />
+
+
+
+                <Button x:Name="ConfirmerDocument" Content="CONFIRMER VENTE" Foreground="{DynamicResource {x:Static SystemColors.MenuTextBrushKey}}" Background="#FF88FF98" BorderBrush="{x:Null}" Click="CONFIRMERVENTE_Click" Grid.ColumnSpan="2" MinWidth="260" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Bottom" FontFamily="Tahoma" >
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Style.BasedOn>
+                                <Style TargetType="{x:Type Button}">
+                                    <Setter Property="Controls:ControlsHelper.ContentCharacterCasing" Value="Upper"/>
+                                    <Setter Property="Controls:ControlsHelper.CornerRadius" Value="3"/>
+                                    <Setter Property="MinHeight" Value="25"/>
+                                    <Setter Property="FontWeight" Value="Bold"/>
+
+                                    <Setter Property="Padding" Value="5,6"/>
+                                    <Setter Property="BorderThickness" Value="1"/>
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="{x:Type Button}">
+                                                <Grid>
+                                                    <Border x:Name="Background" Background="{TemplateBinding Background}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                                    <Border x:Name="Border" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{x:Null}" CornerRadius="{Binding (Controls:ControlsHelper.CornerRadius), Mode=OneWay, RelativeSource={RelativeSource TemplatedParent}}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                                    <Controls:ContentControlEx x:Name="PART_ContentPresenter" ContentCharacterCasing="{Binding (Controls:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                </Grid>
+                                                <ControlTemplate.Triggers>
+                                                    <Trigger Property="IsMouseOver" Value="True">
+
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+                                                    <Trigger Property="IsPressed" Value="True">
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                        <Setter Property="Opacity" TargetName="Background" Value="0.3"/>
+                                                    </Trigger>
+
+                                                    <Trigger Property="IsEnabled" Value="False">
+                                                        <Setter Property="Opacity" TargetName="PART_ContentPresenter" Value="0.3"/>
+                                                    </Trigger>
+                                                </ControlTemplate.Triggers>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Style.BasedOn>
+                        </Style>
+                    </Button.Style>
+                </Button>
+
+
+            </Grid>
+        </Border>
+
+    </Grid>
+</dx:DXWindow>

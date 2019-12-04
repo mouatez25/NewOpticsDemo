@@ -1,0 +1,725 @@
+﻿<UserControl xmlns:dxwui="http://schemas.devexpress.com/winfx/2008/xaml/windowsui" 
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GestionClinique.RendezVous"
+    xmlns:ctr="clr-namespace:GestionClinique.RendezVous"
+    xmlns:primitives="clr-namespace:Microsoft.Windows.Controls.Primitives;assembly=WPFToolkit"
+    xmlns:vsm="clr-namespace:System.Windows;assembly=WPFToolkit"    
+    xmlns:Custom="http://metro.mahapps.com/winfx/xaml/controls" xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" x:Class="GestionClinique.RendezVous.RendezVous"    
+    Loaded="Page_Loaded" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+
+    <Grid Margin="0,0,0,0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80px" />
+            <RowDefinition />
+            <RowDefinition  />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  Width="2*"/>
+            <ColumnDefinition  />
+
+        </Grid.ColumnDefinitions>
+        <dxwui:PageAdornerControl Header="Agenda Praticien" Grid.Row="0" VerticalAlignment="Top"  HorizontalAlignment="Left" FontFamily="Tahoma" Foreground="{DynamicResource {x:Static SystemColors.ControlDarkDarkBrushKey}}" >
+            <dxwui:PageAdornerControl.HeaderTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition />
+                        </Grid.ColumnDefinitions>
+                        <ContentPresenter Content="{Binding}"/>
+
+                    </Grid>
+                </DataTemplate>
+            </dxwui:PageAdornerControl.HeaderTemplate>
+        </dxwui:PageAdornerControl>
+
+        <Label x:Name="txtlabels" Content="" FontFamily="Tahoma" FontSize="32" Margin="350,0,0,0" Foreground="#FFB27300" HorizontalAlignment="Left" VerticalAlignment="Center" />
+        <Border x:Name="windowBorder" BorderThickness="5" Height="500" BorderBrush="#FFB27300" Grid.RowSpan="3" CornerRadius="20" Margin="50,70,0,0" Grid.Row="0" Grid.Column="0" Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <Calendar x:Name="AgendaCalendar"  Grid.RowSpan="3" Height="494" VerticalAlignment="Top" Grid.Row="0" Grid.Column="0" SelectedDatesChanged="AgendaCalendar_SelectedDatesChanged" HorizontalAlignment="Left" FontFamily="Tahoma" FontWeight="Bold" Margin="5" Background="{x:Null}" BorderBrush="#FFB27300">
+                <Calendar.Style>
+                    <Style TargetType="{x:Type Calendar}">
+                        <Style.BasedOn>
+                            <Style TargetType="{x:Type Calendar}">
+                                <Setter Property="SnapsToDevicePixels" Value="True"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="CalendarDayButtonStyle">
+                                    <Setter.Value>
+                                        <Style TargetType="{x:Type CalendarDayButton}">
+                                            <Setter Property="MinWidth" Value="70"/>
+                                            <Setter Property="MinHeight" Value="70"/>
+                                            <Setter Property="FontSize" Value="16"/>
+                                            <Setter Property="FontFamily" Value="Times New Roman"/>
+                                            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                                        </Style>
+                                    </Setter.Value>
+                                </Setter>
+
+
+
+
+
+
+                                <!--     fin calendarDayButtonStyle!-->
+                                <Setter Property="CalendarItemStyle">
+                                    <Setter.Value>
+                                        <Style TargetType="{x:Type CalendarItem}">
+                                            <Setter Property="Margin" Value="0"/>
+                                            <Setter Property="Template">
+                                                <Setter.Value>
+                                                    <ControlTemplate TargetType="{x:Type CalendarItem}">
+                                                        <ControlTemplate.Resources>
+                                                            <DataTemplate x:Key="{ComponentResourceKey ResourceId=DayTitleTemplate, TypeInTargetAssembly={x:Type CalendarItem}}">
+                                                                <TextBlock Foreground="{DynamicResource BlackBrush}" FontWeight="Bold" FontSize="{DynamicResource ContentFontSize}" FontFamily="{DynamicResource ContentFontFamily}" HorizontalAlignment="Center" Margin="0,6" Opacity="0.8" Text="{Binding}" VerticalAlignment="Center"/>
+                                                            </DataTemplate>
+                                                        </ControlTemplate.Resources>
+                                                        <Grid x:Name="PART_Root">
+                                                            <Grid.Resources>
+                                                                <SolidColorBrush x:Key="DisabledColor" Color="#A5FFFFFF"/>
+                                                            </Grid.Resources>
+                                                            <VisualStateManager.VisualStateGroups>
+                                                                <VisualStateGroup x:Name="CommonStates">
+                                                                    <VisualState x:Name="Normal"/>
+                                                                    <VisualState x:Name="Disabled">
+                                                                        <Storyboard>
+                                                                            <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="PART_DisabledVisual"/>
+                                                                        </Storyboard>
+                                                                    </VisualState>
+                                                                </VisualStateGroup>
+                                                            </VisualStateManager.VisualStateGroups>
+                                                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}">
+                                                                <Border BorderThickness="0">
+                                                                    <Grid Margin="2">
+                                                                        <Grid.Resources>
+                                                                            <Style x:Key="PreviousCalendarButtonStyle" TargetType="{x:Type Button}">
+                                                                                <Setter Property="Template">
+                                                                                    <Setter.Value>
+                                                                                        <ControlTemplate TargetType="{x:Type Button}">
+                                                                                            <Grid Cursor="Hand">
+                                                                                                <VisualStateManager.VisualStateGroups>
+                                                                                                    <VisualStateGroup x:Name="CommonStates">
+                                                                                                        <VisualState x:Name="Normal"/>
+                                                                                                        <VisualState x:Name="MouseOver">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                        <VisualState x:Name="Disabled">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                    </VisualStateGroup>
+                                                                                                </VisualStateManager.VisualStateGroups>
+                                                                                                <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                                <Path x:Name="path" Data="M288.75,232.25L288.75,240.625 283,236.625z" Fill="White" HorizontalAlignment="Left" Height="10" Margin="14,-6,0,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                            </Grid>
+                                                                                        </ControlTemplate>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style>
+                                                                            <Style x:Key="NextCalendarButtonStyle" TargetType="{x:Type Button}">
+                                                                                <Setter Property="Template">
+                                                                                    <Setter.Value>
+                                                                                        <ControlTemplate TargetType="{x:Type Button}">
+                                                                                            <Grid Cursor="Hand">
+                                                                                                <VisualStateManager.VisualStateGroups>
+                                                                                                    <VisualStateGroup x:Name="CommonStates">
+                                                                                                        <VisualState x:Name="Normal"/>
+                                                                                                        <VisualState x:Name="MouseOver">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                        <VisualState x:Name="Disabled">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="0.2" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                    </VisualStateGroup>
+                                                                                                </VisualStateManager.VisualStateGroups>
+                                                                                                <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                                <Path x:Name="path" Data="M282.875,231.875L282.875,240.375 288.625,236z" Fill="White" HorizontalAlignment="Right" Height="10" Margin="0,-6,14,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                            </Grid>
+                                                                                        </ControlTemplate>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style>
+                                                                            <ControlTemplate x:Key="PreviousButtonTemplate" TargetType="{x:Type Button}">
+                                                                                <Grid Cursor="Hand">
+                                                                                    <VisualStateManager.VisualStateGroups>
+                                                                                        <VisualStateGroup x:Name="CommonStates">
+                                                                                            <VisualState x:Name="Normal"/>
+                                                                                            <VisualState x:Name="MouseOver">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                            <VisualState x:Name="Disabled">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                        </VisualStateGroup>
+                                                                                    </VisualStateManager.VisualStateGroups>
+                                                                                    <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                    <Path x:Name="path" Data="M288.75,232.25L288.75,240.625 283,236.625z" Fill="White" HorizontalAlignment="Left" Height="10" Margin="14,-6,0,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                </Grid>
+                                                                            </ControlTemplate>
+                                                                            <ControlTemplate x:Key="NextButtonTemplate" TargetType="{x:Type Button}">
+                                                                                <Grid Cursor="Hand">
+                                                                                    <VisualStateManager.VisualStateGroups>
+                                                                                        <VisualStateGroup x:Name="CommonStates">
+                                                                                            <VisualState x:Name="Normal"/>
+                                                                                            <VisualState x:Name="MouseOver">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                            <VisualState x:Name="Disabled">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="0.2" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                        </VisualStateGroup>
+                                                                                    </VisualStateManager.VisualStateGroups>
+                                                                                    <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                    <Path x:Name="path" Data="M282.875,231.875L282.875,240.375 288.625,236z" Fill="White" HorizontalAlignment="Right" Height="10" Margin="0,-6,14,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                </Grid>
+                                                                            </ControlTemplate>
+                                                                            <ControlTemplate x:Key="HeaderButtonTemplate" TargetType="{x:Type Button}">
+                                                                                <Grid Cursor="Hand">
+                                                                                    <VisualStateManager.VisualStateGroups>
+                                                                                        <VisualStateGroup x:Name="CommonStates">
+                                                                                            <VisualState x:Name="Normal"/>
+                                                                                            <VisualState x:Name="MouseOver">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                            <VisualState x:Name="Disabled">
+                                                                                                <Storyboard>
+                                                                                                    <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                </Storyboard>
+                                                                                            </VisualState>
+                                                                                        </VisualStateGroup>
+                                                                                    </VisualStateManager.VisualStateGroups>
+                                                                                    <ContentPresenter x:Name="buttonContent" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" TextElement.Foreground="{DynamicResource AccentSelectedColorBrush}" TextElement.FontFamily="{DynamicResource ContentFontFamily}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="1,4,1,9" Opacity="0.7" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" OpacityMask="Black"/>
+                                                                                </Grid>
+                                                                            </ControlTemplate>
+                                                                            <Style x:Key="HeaderCalendarButtonStyle" TargetType="{x:Type Button}">
+                                                                                <Setter Property="Template">
+                                                                                    <Setter.Value>
+                                                                                        <ControlTemplate TargetType="{x:Type Button}">
+                                                                                            <Grid Cursor="Hand">
+                                                                                                <VisualStateManager.VisualStateGroups>
+                                                                                                    <VisualStateGroup x:Name="CommonStates">
+                                                                                                        <VisualState x:Name="Normal"/>
+                                                                                                        <VisualState x:Name="MouseOver">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                        <VisualState x:Name="Disabled">
+                                                                                                            <Storyboard>
+                                                                                                                <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                            </Storyboard>
+                                                                                                        </VisualState>
+                                                                                                    </VisualStateGroup>
+                                                                                                </VisualStateManager.VisualStateGroups>
+                                                                                                <ContentPresenter x:Name="buttonContent" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" TextElement.Foreground="{DynamicResource AccentSelectedColorBrush}" TextElement.FontFamily="{DynamicResource ContentFontFamily}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="1,4,1,9" Opacity="0.7" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                                                                            </Grid>
+                                                                                        </ControlTemplate>
+                                                                                    </Setter.Value>
+                                                                                </Setter>
+                                                                            </Style>
+                                                                        </Grid.Resources>
+                                                                        <Grid.ColumnDefinitions>
+                                                                            <ColumnDefinition Width="Auto"/>
+                                                                        </Grid.ColumnDefinitions>
+                                                                        <Grid.RowDefinitions>
+                                                                            <RowDefinition Height="Auto"/>
+                                                                            <RowDefinition Height="*"/>
+                                                                        </Grid.RowDefinitions>
+                                                                        <Grid Background="{DynamicResource {x:Static SystemColors.ControlLightBrushKey}}" HorizontalAlignment="Stretch" Grid.Row="0">
+                                                                            <Button x:Name="PART_HeaderButton" FontWeight="Bold" Focusable="False" FontSize="{DynamicResource ContentFontSize}" FontFamily="{DynamicResource ContentFontFamily}" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Top">
+                                                                                <Button.Style>
+                                                                                    <Style TargetType="{x:Type Button}">
+                                                                                        <Setter Property="Template">
+                                                                                            <Setter.Value>
+                                                                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                                                                    <Grid Cursor="Hand">
+                                                                                                        <VisualStateManager.VisualStateGroups>
+                                                                                                            <VisualStateGroup x:Name="CommonStates">
+                                                                                                                <VisualState x:Name="Normal"/>
+                                                                                                                <VisualState x:Name="MouseOver">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                                <VisualState x:Name="Disabled">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="buttonContent"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                            </VisualStateGroup>
+                                                                                                        </VisualStateManager.VisualStateGroups>
+                                                                                                        <ContentPresenter x:Name="buttonContent" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" TextElement.Foreground="{DynamicResource AccentSelectedColorBrush}" TextElement.FontFamily="{DynamicResource ContentFontFamily}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="1,4,1,9" Opacity="0.7" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" OpacityMask="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}"/>
+                                                                                                    </Grid>
+                                                                                                </ControlTemplate>
+                                                                                            </Setter.Value>
+                                                                                        </Setter>
+                                                                                    </Style>
+                                                                                </Button.Style>
+                                                                            </Button>
+                                                                            <Button x:Name="PART_PreviousButton" Focusable="False" HorizontalAlignment="Left" Height="20" Grid.Row="0" Width="28">
+                                                                                <Button.Style>
+                                                                                    <Style TargetType="{x:Type Button}">
+                                                                                        <Setter Property="Template">
+                                                                                            <Setter.Value>
+                                                                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                                                                    <Grid Cursor="Hand">
+                                                                                                        <VisualStateManager.VisualStateGroups>
+                                                                                                            <VisualStateGroup x:Name="CommonStates">
+                                                                                                                <VisualState x:Name="Normal"/>
+                                                                                                                <VisualState x:Name="MouseOver">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                                <VisualState x:Name="Disabled">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="0.5" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                            </VisualStateGroup>
+                                                                                                        </VisualStateManager.VisualStateGroups>
+                                                                                                        <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                                        <Path x:Name="path" Data="M288.75,232.25L288.75,240.625 283,236.625z" Fill="White" HorizontalAlignment="Left" Height="10" Margin="14,-6,0,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                                    </Grid>
+                                                                                                </ControlTemplate>
+                                                                                            </Setter.Value>
+                                                                                        </Setter>
+                                                                                    </Style>
+                                                                                </Button.Style>
+                                                                            </Button>
+                                                                            <Button x:Name="PART_NextButton" Focusable="False" HorizontalAlignment="Right" Height="20" Grid.Row="0" Width="28">
+                                                                                <Button.Style>
+                                                                                    <Style TargetType="{x:Type Button}">
+                                                                                        <Setter Property="Template">
+                                                                                            <Setter.Value>
+                                                                                                <ControlTemplate TargetType="{x:Type Button}">
+                                                                                                    <Grid Cursor="Hand">
+                                                                                                        <VisualStateManager.VisualStateGroups>
+                                                                                                            <VisualStateGroup x:Name="CommonStates">
+                                                                                                                <VisualState x:Name="Normal"/>
+                                                                                                                <VisualState x:Name="MouseOver">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                                <VisualState x:Name="Disabled">
+                                                                                                                    <Storyboard>
+                                                                                                                        <DoubleAnimation Duration="0" To="0.2" Storyboard.TargetProperty="Opacity" Storyboard.TargetName="path"/>
+                                                                                                                    </Storyboard>
+                                                                                                                </VisualState>
+                                                                                                            </VisualStateGroup>
+                                                                                                        </VisualStateManager.VisualStateGroups>
+                                                                                                        <Rectangle Fill="{DynamicResource AccentColorBrush}" Opacity="0.1" Stretch="Fill"/>
+                                                                                                        <Path x:Name="path" Data="M282.875,231.875L282.875,240.375 288.625,236z" Fill="White" HorizontalAlignment="Right" Height="10" Margin="0,-6,14,0" Opacity="0.7" Stretch="Fill" VerticalAlignment="Center" Width="6"/>
+                                                                                                    </Grid>
+                                                                                                </ControlTemplate>
+                                                                                            </Setter.Value>
+                                                                                        </Setter>
+                                                                                    </Style>
+                                                                                </Button.Style>
+                                                                            </Button>
+                                                                        </Grid>
+                                                                        <Grid x:Name="PART_MonthView" HorizontalAlignment="Stretch" Margin="6,-1,6,6" Grid.Row="1" Visibility="Visible" VerticalAlignment="Stretch">
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <Grid.RowDefinitions>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                            </Grid.RowDefinitions>
+                                                                        </Grid>
+                                                                        <Grid x:Name="PART_YearView" HorizontalAlignment="Stretch" Margin="6,-3,7,6" Grid.Row="1" Visibility="Hidden" VerticalAlignment="Stretch">
+                                                                            <Grid.ColumnDefinitions>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                                <ColumnDefinition Width="*"/>
+                                                                            </Grid.ColumnDefinitions>
+                                                                            <Grid.RowDefinitions>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                                <RowDefinition Height="*"/>
+                                                                            </Grid.RowDefinitions>
+                                                                        </Grid>
+                                                                    </Grid>
+                                                                </Border>
+                                                            </Border>
+                                                            <Rectangle x:Name="PART_DisabledVisual" Fill="#A5FFFFFF" Opacity="0" Stretch="Fill" Stroke="#A5FFFFFF" StrokeThickness="1" Visibility="Collapsed"/>
+                                                        </Grid>
+                                                        <ControlTemplate.Triggers>
+                                                            <Trigger Property="IsEnabled" Value="False">
+                                                                <Setter Property="Visibility" TargetName="PART_DisabledVisual" Value="Visible"/>
+                                                            </Trigger>
+                                                            <DataTrigger Binding="{Binding DisplayMode, RelativeSource={RelativeSource FindAncestor, AncestorLevel=1, AncestorType={x:Type Calendar}}}" Value="Year">
+                                                                <Setter Property="Visibility" TargetName="PART_MonthView" Value="Hidden"/>
+                                                                <Setter Property="Visibility" TargetName="PART_YearView" Value="Visible"/>
+                                                            </DataTrigger>
+                                                            <DataTrigger Binding="{Binding DisplayMode, RelativeSource={RelativeSource FindAncestor, AncestorLevel=1, AncestorType={x:Type Calendar}}}" Value="Decade">
+                                                                <Setter Property="Visibility" TargetName="PART_MonthView" Value="Hidden"/>
+                                                                <Setter Property="Visibility" TargetName="PART_YearView" Value="Visible"/>
+                                                            </DataTrigger>
+                                                        </ControlTemplate.Triggers>
+                                                    </ControlTemplate>
+                                                </Setter.Value>
+                                            </Setter>
+                                        </Style>
+                                    </Setter.Value>
+                                </Setter>
+                                <!--     fin CalendarItemStyle!-->
+                                <Setter Property="CalendarButtonStyle" Value="{DynamicResource MetroCalendarButtonStyle}"/>
+                                <Setter Property="Background" Value="{DynamicResource WhiteBrush}"/>
+                                <Setter Property="BorderBrush" Value="{DynamicResource BlackBrush}"/>
+                                <Setter Property="BorderThickness" Value="1"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Calendar}">
+                                            <StackPanel x:Name="PART_Root" Background="{DynamicResource WhiteBrush}" HorizontalAlignment="Center">
+                                                <CalendarItem x:Name="PART_CalendarItem" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Style="{TemplateBinding CalendarItemStyle}"/>
+                                            </StackPanel>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </Style.BasedOn>
+                    </Style>
+                </Calendar.Style>
+                <Calendar.RenderTransform>
+                    <ScaleTransform ScaleX="1"
+                        ScaleY="1" />
+                </Calendar.RenderTransform>
+            </Calendar>
+        </Border>
+        <Label x:Name="labelrecherche" Content="Recherche Par Medecin :" Grid.Row="2" Margin="30,0,0,10" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontFamily="Tahoma" FontSize="13.333" FontWeight="Bold" FontStyle="Italic" />
+
+        <StackPanel  Grid.Row="2" VerticalAlignment="Bottom" Margin="200,0,0,10" Width="300" HorizontalAlignment="Left" Orientation="Horizontal">
+            <StackPanel.Resources>
+                <ResourceDictionary Source="Styles/AutoComplete.Styles.xaml" />
+            </StackPanel.Resources>
+            <ctr:AutoComplete x:Name="autoCities"    
+                              SelectedValuePath="Nom"
+                          TextSearch.TextPath="Nom" 
+                          Delay="500" PatternChanged="autoCities_PatternChanged" Width="250" HorizontalAlignment="Center" DropDownClosed="autoCities_DropDownClosed" FontFamily="Tahoma" Foreground="#FFB27300" >
+                <ctr:AutoComplete.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Docteur " />
+                            <TextBlock Text="{Binding Nom}"  />
+                            <TextBlock Text=" " />
+                            <TextBlock Text="{Binding Prénom}" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ctr:AutoComplete.ItemTemplate>
+
+            </ctr:AutoComplete>
+
+
+
+            <!-- can also do binding on selected value -->
+        </StackPanel>
+        <DataGrid x:Name="RendezVousGrid" Grid.Column="1" Grid.RowSpan="3" Visibility="Collapsed"  Margin="10,0,0,0" AutoGenerateColumns="False" MinRowHeight="53" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Visible"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" GridLinesVisibility="Horizontal" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Normal"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="MinWidth" Value="0"/>
+                    <Setter Property="MinHeight" Value="25"/>
+                    <Setter Property="Foreground" Value="{DynamicResource BlackBrush}"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="10,4,4,7"/>
+                    <Setter Property="Margin" Value="0"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,3"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource GrayBrush5}"/>
+                    <Setter Property="Background" Value="{DynamicResource GrayBrush8}"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Border x:Name="BackgroundBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.ColumnSpan="2"/>
+                                    <Custom:ContentControlEx x:Name="HeaderContent" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    <Path x:Name="SortArrow" Grid.Column="1" Fill="{DynamicResource GrayBrush2}" Height="10" Margin="0,0,8,2" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Visibility="Collapsed" VerticalAlignment="Center" Width="8"/>
+                                    <Thumb x:Name="PART_LeftHeaderGripper" Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                    <Thumb x:Name="PART_RightHeaderGripper" Grid.Column="1" HorizontalAlignment="Right" HorizontalContentAlignment="Right">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="SortDirection" Value="{x:Null}">
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource WhiteBrush}"/>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="IsMouseOver" Value="True"/>
+                                            <Condition Property="SortDirection" Value="{x:Null}"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource GrayBrush8}"/>
+                                    </MultiTrigger>
+                                    <Trigger Property="SortDirection" Value="Ascending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M34,57L42,57 42,32.25 52,42.25 52,31.75 38,17.75 24,31.75 24,42.25 34,32.25 34,57z"/>
+                                    </Trigger>
+                                    <Trigger Property="SortDirection" Value="Descending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M42,19.0002L34,19.0002 34,43.7502 24,33.7502 24,44.2502 38,58.2502 52,44.2502 52,33.7502 42,43.7502 42,19.0002z"/>
+                                        <Setter Property="Margin" TargetName="SortArrow" Value="0,0,8,0"/>
+                                    </Trigger>
+                                    <Trigger Property="DisplayIndex" Value="0">
+                                        <Setter Property="Visibility" TargetName="PART_LeftHeaderGripper" Value="Collapsed"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+
+                <DataGridTemplateColumn Width="30">
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="BtnRendezVous" Click="BtnRendezVous_Click" BorderBrush="{x:Null}" >
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/Diabetosoft;component/Images/PrendreRendezVous.png" Stretch="Fill"/>
+                                </Button.Background>
+                                <Button.Template>
+                                    <ControlTemplate TargetType="{x:Type ButtonBase}">
+                                        <Themes:ButtonChrome x:Name="Chrome" BorderBrush="{TemplateBinding BorderBrush}" Background="{TemplateBinding Background}" RenderMouseOver="{TemplateBinding IsMouseOver}" RenderPressed="{TemplateBinding IsPressed}" RenderDefaulted="{TemplateBinding Button.IsDefaulted}" SnapsToDevicePixels="True">
+                                            <ContentPresenter ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                        </Themes:ButtonChrome>
+                                        <ControlTemplate.Triggers>
+                                            <Trigger Property="IsKeyboardFocused" Value="True">
+                                                <Setter Property="RenderDefaulted" TargetName="Chrome" Value="True"/>
+                                            </Trigger>
+                                            <Trigger Property="ToggleButton.IsChecked" Value="True">
+                                                <Setter Property="RenderPressed" TargetName="Chrome" Value="True"/>
+                                            </Trigger>
+                                            <Trigger Property="IsEnabled" Value="False">
+                                                <Setter Property="Foreground" Value="#FFADADAD"/>
+                                            </Trigger>
+                                        </ControlTemplate.Triggers>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding RendezVousD}" Header="Début" CanUserSort="False" FontSize="16" FontFamily="Tahoma" FontWeight="Bold" Width="120" />
+                <DataGridTextColumn Binding="{Binding RendezVousF}" Header="Fin" CanUserSort="False" FontFamily="Tahoma" FontSize="16" FontWeight="Bold" Width="120" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+
+
+
+        <DataGrid x:Name="RendezVousExisiteGrid" Grid.Column="1" Grid.RowSpan="3" Visibility="Collapsed"  Margin="10,0,0,0" AutoGenerateColumns="False" MinRowHeight="30" IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Visible"
+      ScrollViewer.HorizontalScrollBarVisibility="Auto" HorizontalAlignment="Left" GridLinesVisibility="Horizontal" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}">
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="Custom:ControlsHelper.ContentCharacterCasing" Value="Normal"/>
+                    <Setter Property="FontWeight" Value="SemiBold"/>
+                    <Setter Property="SnapsToDevicePixels" Value="True"/>
+                    <Setter Property="MinWidth" Value="0"/>
+                    <Setter Property="MinHeight" Value="25"/>
+                    <Setter Property="Foreground" Value="{DynamicResource BlackBrush}"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="Padding" Value="10,4,4,7"/>
+                    <Setter Property="Margin" Value="0"/>
+                    <Setter Property="BorderThickness" Value="0,0,0,3"/>
+                    <Setter Property="BorderBrush" Value="{DynamicResource GrayBrush5}"/>
+                    <Setter Property="Background" Value="{DynamicResource GrayBrush8}"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type DataGridColumnHeader}">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Border x:Name="BackgroundBorder" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Grid.ColumnSpan="2"/>
+                                    <Custom:ContentControlEx x:Name="HeaderContent" ContentCharacterCasing="{Binding (Custom:ControlsHelper.ContentCharacterCasing), RelativeSource={RelativeSource TemplatedParent}}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentStringFormat="{TemplateBinding ContentStringFormat}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                    <Path x:Name="SortArrow" Grid.Column="1" Fill="{DynamicResource GrayBrush2}" Height="10" Margin="0,0,8,2" RenderTransformOrigin="0.5,0.5" Stretch="Fill" Visibility="Collapsed" VerticalAlignment="Center" Width="8"/>
+                                    <Thumb x:Name="PART_LeftHeaderGripper" Background="Transparent" HorizontalAlignment="Left" HorizontalContentAlignment="Left">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                    <Thumb x:Name="PART_RightHeaderGripper" Grid.Column="1" HorizontalAlignment="Right" HorizontalContentAlignment="Right">
+                                        <Thumb.Style>
+                                            <Style TargetType="{x:Type Thumb}">
+                                                <Setter Property="Width" Value="8"/>
+                                                <Setter Property="Background" Value="{DynamicResource GrayBrush5}"/>
+                                                <Setter Property="Cursor" Value="SizeWE"/>
+                                                <Setter Property="Template">
+                                                    <Setter.Value>
+                                                        <ControlTemplate TargetType="{x:Type Thumb}">
+                                                            <Border Background="Transparent" Padding="{TemplateBinding Padding}">
+                                                                <Rectangle Fill="{TemplateBinding Background}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Width="1"/>
+                                                            </Border>
+                                                        </ControlTemplate>
+                                                    </Setter.Value>
+                                                </Setter>
+                                            </Style>
+                                        </Thumb.Style>
+                                    </Thumb>
+                                </Grid>
+                                <ControlTemplate.Triggers>
+                                    <Trigger Property="SortDirection" Value="{x:Null}">
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource WhiteBrush}"/>
+                                    </Trigger>
+                                    <MultiTrigger>
+                                        <MultiTrigger.Conditions>
+                                            <Condition Property="IsMouseOver" Value="True"/>
+                                            <Condition Property="SortDirection" Value="{x:Null}"/>
+                                        </MultiTrigger.Conditions>
+                                        <Setter Property="Background" TargetName="BackgroundBorder" Value="{DynamicResource GrayBrush8}"/>
+                                    </MultiTrigger>
+                                    <Trigger Property="SortDirection" Value="Ascending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M34,57L42,57 42,32.25 52,42.25 52,31.75 38,17.75 24,31.75 24,42.25 34,32.25 34,57z"/>
+                                    </Trigger>
+                                    <Trigger Property="SortDirection" Value="Descending">
+                                        <Setter Property="Visibility" TargetName="SortArrow" Value="Visible"/>
+                                        <Setter Property="Data" TargetName="SortArrow" Value="F1M42,19.0002L34,19.0002 34,43.7502 24,33.7502 24,44.2502 38,58.2502 52,44.2502 52,33.7502 42,43.7502 42,19.0002z"/>
+                                        <Setter Property="Margin" TargetName="SortArrow" Value="0,0,8,0"/>
+                                    </Trigger>
+                                    <Trigger Property="DisplayIndex" Value="0">
+                                        <Setter Property="Visibility" TargetName="PART_LeftHeaderGripper" Value="Collapsed"/>
+                                    </Trigger>
+                                    <Trigger Property="IsEnabled" Value="False">
+                                        <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    </Trigger>
+                                </ControlTemplate.Triggers>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+            <DataGrid.Columns>
+
+                <DataGridTemplateColumn  Width="30">
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button x:Name="BtnRendezVousExiste" Click="BtnRendezVousExiste_Click" BorderBrush="{x:Null}" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
+                                <Button.Background>
+                                    <ImageBrush ImageSource="/Diabetosoft;component/Images/modifier-icone-7876-96.png" Stretch="Fill"/>
+                                </Button.Background>
+                            </Button>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTextColumn Binding="{Binding RendezVousD, StringFormat=\{0:hh\\:mm\\:ss\}}" Header="Début" CanUserSort="False" FontSize="14" FontFamily="Tahoma" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}" />
+                <DataGridTemplateColumn  Width="Auto" Header="Patient">
+
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock FontWeight="Bold" FontFamily="Tahoma">
+                                <TextBlock.Text>
+                                    <MultiBinding StringFormat="{}{0}   {1}">
+                                        <Binding Path="Nom" />
+                                        <Binding Path="Prénom" />
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTextColumn Binding="{Binding Motif}" Header="Motif" CanUserSort="False" FontFamily="Tahoma" FontSize="15" FontWeight="Bold" Foreground="{DynamicResource {x:Static SystemColors.HotTrackBrushKey}}"/>
+
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+
+</UserControl>
