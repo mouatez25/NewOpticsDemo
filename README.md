@@ -1,6 +1,6 @@
 # NewOpticsDemo
 Download Trial NewOptics management software for optometrist french version
-this is the client part of the application in which the server part use wcf tcpbinding (windows communication foundation) with sql server database
+this is the client part of the application in which the server part uses wcf tcpbinding (windows communication foundation) with sql server database
 
 link : https://drive.google.com/open?id=1FeOqPWTsaz6Cfm8zoKZwqRftNpNZmLmX
 
